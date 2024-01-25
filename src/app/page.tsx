@@ -5,7 +5,9 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <Greeting />
+      <main className="px-20">
+        <Greeting />
+      </main>
     </>
   );
 }
