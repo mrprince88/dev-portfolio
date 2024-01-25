@@ -8,7 +8,7 @@ import DisplayLottie from "./DisplayLottie";
 export default function Greeting() {
   return (
     <Fade direction="down" duration={1000}>
-      <div className="flex h-[600px] items-center justify-between bg-red-800 px-40">
+      <div className="flex h-[600px] items-center justify-between px-40">
         <div className="flex w-1/2 flex-col justify-center">
           <h1 className="py-4 text-6xl font-bold tracking-tight">
             Hi there, I'm <span className="text-blue-400">Prince</span>
