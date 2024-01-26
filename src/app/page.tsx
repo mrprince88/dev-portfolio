@@ -1,5 +1,5 @@
-import Header from "~/components/Header";
-import Greeting from "~/components/Greeting";
+import Header from "~/sections/Header";
+import Greeting from "~/sections/Greeting";
 
 export default function HomePage() {
   return (

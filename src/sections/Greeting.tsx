@@ -1,20 +1,18 @@
-"use client";
-
-import { Fade } from "react-awesome-reveal";
 import emoji from "react-easy-emoji";
 import HelloAnimation from "public/assets/lottie/HelloWorld.json";
 
 import { Button } from "~/components/ui/button";
 import DisplayLottie from "~/components/DisplayLottie";
+import Fade from "~/components/FadeContainer";
 
 export default function Greeting() {
   return (
-    <Fade direction="down" duration={1000}>
+    <Fade>
       <div className="flex items-center justify-between px-20 pt-20">
         <div className="flex flex-1 flex-col">
           <h1 className="py-4 text-7xl font-bold leading-[1.1] tracking-tight">
             Hi there, I'm <span className="text-blue-400">Prince</span>{" "}
-            <span className="animate-wave inline-block">{emoji("👋")}</span>
+            <span className="inline-block animate-wave">{emoji("👋")}</span>
           </h1>
           <p className="text-3xl leading-[40px] tracking-tight">
             A full stack software developer having experience building mobile
@@ -26,12 +24,9 @@ export default function Greeting() {
               variant="default"
               size="lg"
               className="uppercase"
-              onClick={() =>
-                window.open(
-                  "https://drive.google.com/file/d/1F9x-l9rwS73oWQwALfjygsJz_K8rdfQM/view?usp=sharing",
-                  "_blank",
-                )
-              }
+              href="https://drive.google.com/file/d/1F9x-l9rwS73oWQwALfjygsJz_K8rdfQM/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume
             </Button>
