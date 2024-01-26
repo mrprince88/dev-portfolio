@@ -10,7 +10,7 @@ import { greeting } from "~/data";
 export default function Greeting() {
   return (
     <Fade>
-      <div className="mb-20 flex items-center justify-between px-20 pt-20 max-[600px]:px-2 max-[320px]:flex-col md:flex-row">
+      <section className="mb-20 flex items-center justify-between px-20 pt-20 max-[600px]:px-2 max-[320px]:flex-col md:flex-row">
         <div className="flex flex-1 flex-col">
           <h1 className="py-4 text-7xl font-bold leading-[1.1] tracking-tight">
             Hi there, I'm <span className="text-blue-400">{greeting.name}</span>{" "}
@@ -38,7 +38,7 @@ export default function Greeting() {
         <div className="flex h-[600px] flex-1 justify-end max-[768px]:hidden">
           <DisplayLottie animationData={HelloAnimation} />
         </div>
-      </div>
+      </section>
     </Fade>
   );
 }

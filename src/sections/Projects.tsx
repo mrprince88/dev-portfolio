@@ -10,8 +10,8 @@ import {
 
 export default function Projects() {
   return (
-    <>
-      <h1 className="mb-2 mt-2 text-4xl font-bold">Projects</h1>
+    <section className="mb-20">
+      <h1 className="text-4xl font-bold">Projects</h1>
       <p className="mb-8 text-2xl">
         Here are some of the projects I've worked on recently
       </p>
@@ -36,6 +36,6 @@ export default function Projects() {
         </CarouselContent>
         <CarouselNext />
       </Carousel>
-    </>
+    </section>
   );
 }
