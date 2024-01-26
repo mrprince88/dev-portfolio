@@ -1,7 +1,7 @@
 import emoji from "react-easy-emoji";
 import HelloAnimation from "public/assets/lottie/HelloWorld.json";
 
-import { Button } from "~/components/ui/button";
+import { AnchorButton } from "~/components/ui/button";
 import DisplayLottie from "~/components/DisplayLottie";
 import Fade from "~/components/FadeContainer";
 
@@ -20,7 +20,7 @@ export default function Greeting() {
             {greeting.description}
           </p>
           <div className="mt-10 flex items-center space-x-8">
-            <Button
+            <AnchorButton
               variant="default"
               size="lg"
               className="uppercase"
@@ -29,10 +29,10 @@ export default function Greeting() {
               rel="noopener noreferrer"
             >
               Resume
-            </Button>
-            <Button variant="secondary" size="lg" className="uppercase">
+            </AnchorButton>
+            <AnchorButton variant="secondary" size="lg" className="uppercase">
               Contact Me
-            </Button>
+            </AnchorButton>
           </div>
         </div>
         <div className="flex h-[600px] flex-1 justify-end">
