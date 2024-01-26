@@ -1,5 +1,6 @@
 import "~/styles/globals.css";
 import ThemeProvider from "./providers/ThemeProvider";
+import Particles from "~/components/Particles";
 
 import { Montserrat } from "next/font/google";
 
@@ -22,7 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`font-sans ${montserrat.variable}`}>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Particles />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
