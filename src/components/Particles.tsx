@@ -26,10 +26,10 @@ export default function ParticlesContainer() {
       fpsLimit: 120,
       particles: {
         color: {
-          value: "#FF0000",
+          value: "#FFFFFF",
         },
         links: {
-          color: "#FF0000",
+          color: "#FFFFFF",
           distance: 150,
           enable: true,
           opacity: 0.5,

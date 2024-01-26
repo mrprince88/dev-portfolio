@@ -1,5 +1,6 @@
 import Header from "~/sections/Header";
 import Greeting from "~/sections/Greeting";
+import Profile from "~/sections/Profile";
 
 export default function HomePage() {
   return (
@@ -7,6 +8,7 @@ export default function HomePage() {
       <Header />
       <main className="px-20">
         <Greeting />
+        <Profile />
       </main>
     </>
   );
