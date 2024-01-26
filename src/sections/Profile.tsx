@@ -1,4 +1,5 @@
 import Fade from "~/components/FadeContainer";
+import { contactInfo } from "~/data";
 
 export default function Profile() {
   return (
@@ -6,7 +7,7 @@ export default function Profile() {
       <div className="bg-grey-800 pl-20 pr-20 pt-20 leading-[1.1]">
         <h1 className="text-4xl font-semibold">Reach out to me!</h1>
         <div className="bg-grey-800 flex justify-between">
-          <div className="flex-column mt-5 flex gap-2">
+          <div className="mt-5 flex flex-col gap-2">
             <p className="text-xl font-normal uppercase">
               Discuss a project or just want to say hi? My inbox is open for
               all.

@@ -5,26 +5,26 @@ import { Button } from "~/components/ui/button";
 import DisplayLottie from "~/components/DisplayLottie";
 import Fade from "~/components/FadeContainer";
 
+import { greeting } from "~/data";
+
 export default function Greeting() {
   return (
     <Fade>
       <div className="flex items-center justify-between px-20 pt-20">
         <div className="flex flex-1 flex-col">
           <h1 className="py-4 text-7xl font-bold leading-[1.1] tracking-tight">
-            Hi there, I'm <span className="text-blue-400">Prince</span>{" "}
+            Hi there, I'm <span className="text-blue-400">{greeting.name}</span>{" "}
             <span className="inline-block animate-wave">{emoji("👋")}</span>
           </h1>
           <p className="text-3xl leading-[40px] tracking-tight">
-            A full stack software developer having experience building mobile
-            and web applications with React, React Native, Node.js, and some
-            other cool libraries and frameworks.
+            {greeting.description}
           </p>
           <div className="mt-10 flex items-center space-x-8">
             <Button
               variant="default"
               size="lg"
               className="uppercase"
-              href="https://drive.google.com/file/d/1F9x-l9rwS73oWQwALfjygsJz_K8rdfQM/view?usp=sharing"
+              href={greeting.resumeLink}
               target="_blank"
               rel="noopener noreferrer"
             >
