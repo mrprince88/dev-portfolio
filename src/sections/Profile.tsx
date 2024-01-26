@@ -4,9 +4,9 @@ import { contactInfo } from "~/data";
 export default function Profile() {
   return (
     <Fade>
-      <div className="bg-grey-800 pl-20 pr-20 pt-20 leading-[1.1]">
+      <div className="pb-20 pt-20 leading-[1.1] md:pl-20 md:pr-20">
         <h1 className="text-4xl font-semibold">Reach out to me!</h1>
-        <div className="bg-grey-800 flex justify-between">
+        <div className="flex justify-between">
           <div className="mt-5 flex flex-col gap-2">
             <p className="text-xl font-normal uppercase">
               Discuss a project or just want to say hi? My inbox is open for
@@ -34,7 +34,7 @@ export default function Profile() {
               Open to opportunities: <span className="text-blue-400">Yes</span>
             </p>
           </div>
-          <div className="ml-10">
+          <div className="ml-10 max-[768px]:hidden">
             <img
               src="/assets/images/profile-picture.png"
               alt="Contact"

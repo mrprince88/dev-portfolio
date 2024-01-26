@@ -18,19 +18,19 @@ export default function Projects() {
       <Carousel>
         <CarouselPrevious />
         <CarouselContent>
-          <CarouselItem className="basis-1/2">
+          <CarouselItem className="md:basis-1/2">
             <ProjectCard />
           </CarouselItem>
-          <CarouselItem className="basis-1/2">
+          <CarouselItem className="md:basis-1/2">
             <ProjectCard />
           </CarouselItem>
-          <CarouselItem className="basis-1/2">
+          <CarouselItem className="md:basis-1/2">
             <ProjectCard />
           </CarouselItem>
-          <CarouselItem className="basis-1/2">
+          <CarouselItem className="md:basis-1/2">
             <ProjectCard />
           </CarouselItem>
-          <CarouselItem className="basis-1/2">
+          <CarouselItem className="md:basis-1/2">
             <ProjectCard />
           </CarouselItem>
         </CarouselContent>

@@ -7,7 +7,7 @@ import {
 
 export default function EducationCard() {
   return (
-    <Card className="flex bg-background">
+    <Card className="flex bg-background max-[768px]:flex-col">
       <CardHeader>
         <img
           alt="JSS"
