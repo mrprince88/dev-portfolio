@@ -10,7 +10,7 @@ import { greeting } from "~/data";
 export default function Greeting() {
   return (
     <Fade>
-      <div className="flex items-center justify-between px-20 pt-20">
+      <div className="mb-20 flex items-center justify-between px-20 pt-20">
         <div className="flex flex-1 flex-col">
           <h1 className="py-4 text-7xl font-bold leading-[1.1] tracking-tight">
             Hi there, I'm <span className="text-blue-400">{greeting.name}</span>{" "}
