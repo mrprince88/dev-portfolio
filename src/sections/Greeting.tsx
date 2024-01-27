@@ -35,7 +35,7 @@ export default function Greeting() {
             </AnchorButton>
           </div>
         </div>
-        <div className="flex h-[600px] flex-1 justify-end max-[768px]:hidden">
+        <div className="flex h-[700px] flex-1 justify-end max-[768px]:hidden">
           <DisplayLottie animationData={HelloAnimation} />
         </div>
       </section>
