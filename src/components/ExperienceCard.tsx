@@ -5,31 +5,48 @@ import {
   CardFooter,
 } from "~/components/ui/card";
 
-export default function ExperienceCard() {
+import { Badge } from "~/components/ui/badge";
+
+type ExperienceCardProps = {
+  experienceData: {
+    companyName: string;
+    role: string;
+    duration: string;
+    description: string;
+    techStack: string[];
+    src: string;
+  };
+};
+
+export default function ExperienceCard({
+  experienceData,
+}: ExperienceCardProps) {
   return (
     <Card className="bg-background">
       <img
-        alt="appleute"
-        src="https://www.appleute.de/wp-content/uploads/2021/08/Frame-46.svg"
-        width={600}
-        height={800}
-        className="rounded-t-xl bg-white"
+        alt={experienceData?.companyName}
+        src={experienceData?.src}
+        className="h-[280px] w-full rounded-t-xl bg-white object-contain"
       />
       <CardHeader className="text-center">
-        <h2 className="text-2xl font-bold">Software Developer</h2>
-        <p className="text-xl">Appleute</p>
-        <p className="text-xl">2018 - Present</p>
+        <h2 className="text-2xl font-bold">{experienceData?.role}</h2>
+        <p className="text-xl">{experienceData?.companyName}</p>
+        <p className="text-xl">{experienceData?.duration}</p>
       </CardHeader>
       <CardContent>
-        <p className="text-xl">
-          I work on the Ableton Live team, building the next generation of music
-          production software. I'm currently working on a project to build a
-          cloud-connected web app that allows users to collaborate on music
-          projects in real-time.
+        <p className="whitespace-pre-line text-xl">
+          {experienceData?.description}
         </p>
       </CardContent>
-      <CardFooter>
-        <p className="text-xl">React, TypeScript, Node.js, Rust</p>
+      <CardFooter className="justify-start">
+        <p className="whitespace-pre-line text-xl">
+          Tech stack:{" "}
+          {experienceData?.techStack?.map((stack) => (
+            <Badge key={stack} className="mr-2">
+              {stack}
+            </Badge>
+          ))}
+        </p>
       </CardFooter>
     </Card>
   );
