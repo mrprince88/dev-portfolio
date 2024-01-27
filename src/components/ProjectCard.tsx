@@ -4,30 +4,57 @@ import {
   CardContent,
   CardFooter,
   CardTitle,
+  CardDescription,
 } from "~/components/ui/card";
-import { Button } from "~/components/ui/button";
+import { AnchorButton } from "~/components/ui/button";
+import { Badge } from "~/components/ui/badge";
 
-export default function ProjectCard() {
+export default function ProjectCard({
+  projectData,
+}: {
+  projectData: {
+    projectName: string;
+    projectDesc: string;
+    projectImage: string;
+    projectUrl: string;
+    tags: string[];
+    codeLink?: string;
+  };
+}) {
   return (
-    <Card className="bg-background">
+    <Card className="h-full bg-background">
       <CardHeader className="items-center justify-center">
         <img
-          alt="Bücherbüchse"
-          src="/assets/images/bookbox.png"
-          width={600}
-          height={800}
+          alt={projectData?.projectName}
+          src={projectData?.projectImage}
+          className="w-fill h-96 object-cover"
         />
       </CardHeader>
-      <CardTitle>Bucherbuesche</CardTitle>
+      <CardTitle>{projectData?.projectName}</CardTitle>
       <CardContent>
-        An Instagram-like social media app for book nerds. Built for the German
-        market with React Native, React Query and Typescript
+        {projectData?.projectDesc}
+        <div className="my-5 flex flex-wrap gap-5">
+          {projectData?.tags.map((tag) => (
+            <Badge variant="secondary" key={tag}>
+              {tag}
+            </Badge>
+          ))}
+        </div>
       </CardContent>
-      <CardFooter>
-        <Button variant="secondary" className="mr-5">
+      <CardFooter className="mt-auto">
+        <AnchorButton
+          variant="secondary"
+          className="mr-5"
+          href={projectData?.projectUrl}
+        >
           See Live
-        </Button>
-        <Button variant="default">See Code</Button>
+        </AnchorButton>
+        <AnchorButton
+          variant={projectData?.codeLink ? "default" : "disabled"}
+          href={projectData?.codeLink}
+        >
+          See Code
+        </AnchorButton>
       </CardFooter>
     </Card>
   );

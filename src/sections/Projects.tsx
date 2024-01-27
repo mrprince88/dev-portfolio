@@ -1,4 +1,3 @@
-import Autoplay from "embla-carousel-autoplay";
 import ProjectCard from "~/components/ProjectCard";
 import {
   CarouselContent,
@@ -7,6 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "~/components/ui/carousel";
+import { projectsInfo } from "~/data";
 
 export default function Projects() {
   return (
@@ -18,21 +18,11 @@ export default function Projects() {
       <Carousel>
         <CarouselPrevious />
         <CarouselContent>
-          <CarouselItem className="md:basis-1/2">
-            <ProjectCard />
-          </CarouselItem>
-          <CarouselItem className="md:basis-1/2">
-            <ProjectCard />
-          </CarouselItem>
-          <CarouselItem className="md:basis-1/2">
-            <ProjectCard />
-          </CarouselItem>
-          <CarouselItem className="md:basis-1/2">
-            <ProjectCard />
-          </CarouselItem>
-          <CarouselItem className="md:basis-1/2">
-            <ProjectCard />
-          </CarouselItem>
+          {projectsInfo.map((project) => (
+            <CarouselItem className="md:basis-1/2" key={project.projectName}>
+              <ProjectCard projectData={project} />
+            </CarouselItem>
+          ))}
         </CarouselContent>
         <CarouselNext />
       </Carousel>

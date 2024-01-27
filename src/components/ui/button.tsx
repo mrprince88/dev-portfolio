@@ -19,6 +19,7 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        disabled: "bg-primary text-primary-foreground shadow opacity-50",
       },
       size: {
         default: "h-9 px-4 py-2",
@@ -57,6 +58,8 @@ const AnchorButton = ({
   return (
     <Comp
       className={cn(buttonVariants({ variant, size, className }))}
+      target="_blank"
+      rel="noopener noreferrer"
       {...props}
     />
   );
