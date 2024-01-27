@@ -39,14 +39,14 @@ export default function ExperienceCard({
         </p>
       </CardContent>
       <CardFooter className="justify-start">
-        <p className="whitespace-pre-line text-xl">
+        <div className="text-xl">
           Tech stack:{" "}
           {experienceData?.techStack?.map((stack) => (
-            <Badge key={stack} className="mr-2">
+            <Badge key={stack} className="mr-2" variant="secondary">
               {stack}
             </Badge>
           ))}
-        </p>
+        </div>
       </CardFooter>
     </Card>
   );
