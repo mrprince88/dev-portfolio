@@ -22,7 +22,7 @@ export default function ExperienceCard({
   experienceData,
 }: ExperienceCardProps) {
   return (
-    <Card className="bg-background">
+    <Card>
       <img
         alt={experienceData?.companyName}
         src={experienceData?.src}

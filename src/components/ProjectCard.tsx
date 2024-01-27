@@ -22,7 +22,7 @@ export default function ProjectCard({
   };
 }) {
   return (
-    <Card className="h-full bg-background">
+    <Card className="h-full">
       <CardHeader className="items-center justify-center">
         <img
           alt={projectData?.projectName}

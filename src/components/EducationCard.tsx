@@ -19,7 +19,7 @@ export default function EducationCard({
   educationData: educationData;
 }) {
   return (
-    <Card className="flex bg-background max-[768px]:flex-col">
+    <Card className="flex max-[768px]:flex-col">
       <CardHeader>
         <img
           alt="College Logo"
