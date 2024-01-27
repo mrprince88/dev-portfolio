@@ -2,12 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import {
-  type Container,
-  type ISourceOptions,
-  MoveDirection,
-  OutMode,
-} from "@tsparticles/engine";
+import { type ISourceOptions } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
 
 export default function ParticlesContainer() {
@@ -26,10 +21,10 @@ export default function ParticlesContainer() {
       fpsLimit: 120,
       particles: {
         color: {
-          value: "#FFFFFF",
+          value: "#0962BB",
         },
         links: {
-          color: "#FFFFFF",
+          color: "#0962BB",
           distance: 150,
           enable: true,
           opacity: 0.5,
