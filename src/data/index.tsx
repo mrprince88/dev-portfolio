@@ -157,3 +157,34 @@ I worked as a Frontend Developer Intern for 3 weeks. My work was centered around
     techStack: ["Javascript", "HTML"],
   },
 ];
+
+export const skillsInfo = [
+  {
+    title: "Programming",
+    skills: ["Typescript", "Javascript", "Java"],
+  },
+  {
+    title: "Frameworks/Libraries & Tools",
+    skills: [
+      "React",
+      "Next.js",
+      "React Native",
+      "Redux",
+      "Jest",
+      "Node.js",
+      "Git",
+      "Nestjs",
+      "MongoDB",
+      "SQL",
+      "Azure",
+      "AWS",
+      "Tailwind CSS",
+      "trpc",
+      "Docker",
+    ],
+  },
+  {
+    title: "Exploring",
+    skills: ["Go"],
+  },
+];
