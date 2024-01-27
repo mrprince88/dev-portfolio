@@ -5,26 +5,42 @@ import {
   CardDescription,
 } from "~/components/ui/card";
 
-export default function EducationCard() {
+type educationData = {
+  schoolName: string;
+  subHeader: string;
+  duration: string;
+  desc: string;
+  collegeLogo: string;
+};
+
+export default function EducationCard({
+  educationData,
+}: {
+  educationData: educationData;
+}) {
   return (
     <Card className="flex bg-background max-[768px]:flex-col">
       <CardHeader>
         <img
-          alt="JSS"
-          src="https://jssaten.ac.in\/assets/images/logo/jsslogoicon.png"
+          alt="College Logo"
+          src={educationData?.collegeLogo}
           className="h-32 w-32"
         />
       </CardHeader>
       <div>
-        <CardHeader className="text-2xl font-bold">
-          JSS Academy of Technical Education, Noida
+        <CardHeader className="pb-0 text-2xl font-bold">
+          {educationData?.schoolName}
         </CardHeader>
         <CardContent>
-          <CardDescription className="text-lg">
-            Bachelor of Technology in Computer Science
+          <CardDescription className="text-lg text-foreground">
+            {educationData?.subHeader}
           </CardDescription>
-          <CardDescription className="text-lg">2018 - 2022</CardDescription>
-          <CardDescription className="text-lg"> 8.2 CGPA</CardDescription>
+          <CardDescription className="text-lg text-foreground">
+            {educationData?.duration}
+          </CardDescription>
+          <CardDescription className="text-lg text-foreground">
+            {educationData?.desc}
+          </CardDescription>
         </CardContent>
       </div>
     </Card>
