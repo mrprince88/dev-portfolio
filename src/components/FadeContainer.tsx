@@ -8,7 +8,7 @@ export default function FadeContainer({
   children: React.ReactNode;
 }) {
   return (
-    <Fade duration={1000} cascade triggerOnce direction="down">
+    <Fade duration={1000} cascade triggerOnce direction="down" damping={40}>
       {children}
     </Fade>
   );
