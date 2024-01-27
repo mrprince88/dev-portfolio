@@ -22,7 +22,7 @@ export default function ProjectCard({
   };
 }) {
   return (
-    <Card className="h-full">
+    <Card className="h-full hover:scale-100">
       <CardHeader className="items-center justify-center">
         <img
           alt={projectData?.projectName}
@@ -34,11 +34,7 @@ export default function ProjectCard({
       <CardContent>
         {projectData?.projectDesc}
         <div className="my-5 flex flex-wrap gap-5">
-          {projectData?.tags.map((tag) => (
-            <Badge variant="secondary" key={tag}>
-              {tag}
-            </Badge>
-          ))}
+          {projectData?.tags.map((tag) => <Badge key={tag}>{tag}</Badge>)}
         </div>
       </CardContent>
       <CardFooter className="mt-auto">
