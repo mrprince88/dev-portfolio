@@ -1,5 +1,5 @@
 import "~/styles/globals.css";
-import ThemeProvider from "./providers/ThemeProvider";
+import ThemeProvider from "~/providers/ThemeProvider";
 import Particles from "~/components/Particles";
 
 import { Montserrat } from "next/font/google";
