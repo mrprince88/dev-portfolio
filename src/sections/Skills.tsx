@@ -21,7 +21,7 @@ export default function Skills() {
               <div className="mb-5 flex flex-col">
                 {/* <h2 className="mb-5 text-2xl font-bold">{skill.title}</h2> */}
                 <div className="flex flex-wrap gap-5">
-                  {skill.skills.map((skill, index) => (
+                  {skill.skills.map((skill) => (
                     <div
                       className="mb-2 mr-2 text-center"
                       key={`skill${skill.name}`}

@@ -42,7 +42,10 @@ export default function ExperienceCard({
         <div className="text-xl">
           Tech stack:{" "}
           {experienceData?.techStack?.map((stack) => (
-            <Badge key={stack} className="mr-2">
+            <Badge
+              key={`${experienceData?.companyName}${stack}`}
+              className="mr-2"
+            >
               {stack}
             </Badge>
           ))}

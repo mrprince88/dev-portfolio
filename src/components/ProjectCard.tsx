@@ -34,7 +34,9 @@ export default function ProjectCard({
       <CardContent>
         {projectData?.projectDesc}
         <div className="my-5 flex flex-wrap gap-5">
-          {projectData?.tags.map((tag) => <Badge key={tag}>{tag}</Badge>)}
+          {projectData?.tags.map((tag) => (
+            <Badge key={`${projectData.projectName}${tag}`}>{tag}</Badge>
+          ))}
         </div>
       </CardContent>
       <CardFooter className="mt-auto">
