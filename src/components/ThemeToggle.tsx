@@ -11,9 +11,11 @@ export default function ThemeToggle() {
 
   useEffect(() => setMounted(true), []);
 
+  if (!mounted) return <div className="h-6 w-14 rounded-full bg-input" />;
+
   return (
     <Switch
-      checked={mounted && resolvedTheme === "dark"}
+      checked={resolvedTheme === "dark"}
       onCheckedChange={() => {
         setTheme(resolvedTheme === "dark" ? "light" : "dark");
       }}
