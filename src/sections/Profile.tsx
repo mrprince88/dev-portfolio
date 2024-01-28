@@ -10,8 +10,8 @@ export default function Profile() {
     <section className="pb-20 pt-20 leading-[1.1]" id="contact">
       <Fade duration={1000} triggerOnce>
         <h1 className="text-4xl font-semibold">{footer.title}</h1>
-        <div className="flex flex-col justify-between">
-          <div className="order-2 mt-5 flex flex-col gap-2">
+        <div className="flex flex-col justify-between md:flex-row">
+          <div className="mt-5 flex flex-col gap-2 max-[768px]:order-2">
             <p className="text-2xl font-normal uppercase">{footer.subtitle}</p>
             <span className="my-5">
               <span className="text-xl">
@@ -31,7 +31,7 @@ export default function Profile() {
               </span>
             </p>
           </div>
-          <div className="order-1 max-[768px]:my-10 md:ml-10">
+          <div className="max-[768px]:order-1 max-[768px]:my-10 md:ml-10">
             <img
               src="/assets/images/profile-picture.png"
               alt="Contact"
