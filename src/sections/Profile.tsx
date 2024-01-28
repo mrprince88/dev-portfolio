@@ -7,7 +7,7 @@ import { footer } from "~/data";
 
 export default function Profile() {
   return (
-    <section className="pb-20 pt-20 leading-[1.1]">
+    <section className="pb-20 pt-20 leading-[1.1]" id="contact">
       <Fade duration={1000} triggerOnce>
         <h1 className="text-4xl font-semibold">{footer.title}</h1>
         <div className="flex flex-col justify-between">

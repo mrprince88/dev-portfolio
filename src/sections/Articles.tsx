@@ -6,7 +6,7 @@ export const Articles = async () => {
   const articles = await fetchArticles();
 
   return (
-    <section className="pb-20">
+    <section className="pb-20" id="articles">
       <h1 className="my-5 text-4xl font-bold">Articles</h1>
       <p className="mb-8 text-2xl uppercase">
         Here are some of the articles I've written recently

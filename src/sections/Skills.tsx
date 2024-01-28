@@ -5,7 +5,7 @@ import { skillsInfo, softwareSkills } from "~/data";
 
 export default function Skills() {
   return (
-    <section className="py-20">
+    <section className="py-20" id="skills">
       <Slide duration={1000} direction="right" triggerOnce>
         <div className="flex">
           <div className="flex h-[800px] basis-1/2 max-[768px]:hidden">
