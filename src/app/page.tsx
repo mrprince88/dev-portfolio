@@ -5,6 +5,7 @@ import Projects from "~/sections/Projects";
 import Education from "~/sections/Education";
 import Experience from "~/sections/Experience";
 import Skills from "~/sections/Skills";
+import Articles from "~/sections/Articles";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
         <Experience />
         <Education />
         <Projects />
+        <Articles />
         <Profile />
       </main>
     </>

@@ -7,9 +7,9 @@ export default function Experience() {
     <section className="py-20" id="experience">
       <Slide duration={1000} direction="left" triggerOnce>
         <h1 className="mb-8 text-4xl font-bold">Experience</h1>
-        <div className="flex flex-wrap gap-5">
+        <div className="grid-row grid grow-0 auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
           {experienceInfo.map((experience) => (
-            <div className="flex gap-5 md:flex-1" key={experience.companyName}>
+            <div key={experience.companyName} className="flex flex-grow">
               <ExperienceCard experienceData={experience} />
             </div>
           ))}

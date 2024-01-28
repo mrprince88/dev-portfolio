@@ -1,0 +1,34 @@
+export const fetchArticles = async () => {
+  try {
+    const query = `query Publication {
+        publication(host: "mrprince88.hashnode.dev") {
+          posts(first: 10) {
+            edges {
+              node {
+                title
+                brief
+                url
+              }
+            }
+          }
+        }
+      }`;
+
+    const data = await fetch("https://gql.hashnode.com/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ query }),
+    });
+
+    const json = await data.json();
+
+    const articles = json.data.publication.posts.edges.map(
+      (edge: any) => edge.node,
+    );
+    return articles;
+  } catch (error) {
+    console.log(error);
+  }
+};
