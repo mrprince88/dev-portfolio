@@ -16,7 +16,7 @@ import {
   TbBrandGolang,
 } from "react-icons/tb";
 import { FaJava } from "react-icons/fa6";
-import { SiJest, SiNestjs, SiTrpc } from "react-icons/si";
+import { SiJest, SiNestjs, SiTrpc, SiExpo } from "react-icons/si";
 
 export const skillsInfo: {
   title: string;
@@ -53,6 +53,10 @@ export const skillsInfo: {
       {
         name: "React Native",
         icon: <TbBrandReactNative />,
+      },
+      {
+        name: "Expo",
+        icon: <SiExpo />,
       },
       {
         name: "Redux",
@@ -113,4 +117,11 @@ export const skillsInfo: {
       },
     ],
   },
+];
+
+export const softwareSkills = [
+  "I build high quality websites and mobile applications.",
+  "My main focus is on building pixel perfect UIs with intuitive UX.",
+  "I build scalable backend services with Node.js and Nestjs.",
+  "My preferred tech stack: React, React Native, Next.js, and Tailwind CSS.",
 ];
