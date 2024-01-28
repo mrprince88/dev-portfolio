@@ -8,7 +8,7 @@ export const Articles = async () => {
   return (
     <section className="pb-20">
       <h1 className="my-5 text-4xl font-bold">Articles</h1>
-      <p className="mb-8 text-2xl">
+      <p className="mb-8 text-2xl uppercase">
         Here are some of the articles I've written recently
       </p>
       <Slide duration={1000} direction="left" triggerOnce>
