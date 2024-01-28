@@ -1,7 +1,6 @@
 import DisplayLottie from "~/components/DisplayLottie";
 import WorkingMan from "public/assets/lottie/Working.json";
 import { skillsInfo } from "~/data";
-import Icon from "~/components/Icon";
 
 export default function Skills() {
   return (
@@ -18,9 +17,9 @@ export default function Skills() {
               <div className="flex flex-wrap gap-5">
                 {skill.skills.map((skill, index) => (
                   <div className="mb-2 mr-2 text-center" key={`skill${index}`}>
-                    <Icon name={skill} />
+                    <p className="flex justify-center text-6xl">{skill.icon}</p>
                     <p className="text-bold text-sm text-muted-foreground">
-                      {skill}
+                      {skill.name}
                     </p>
                   </div>
                 ))}
