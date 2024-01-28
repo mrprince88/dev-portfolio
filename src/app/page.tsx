@@ -6,6 +6,7 @@ import Education from "~/sections/Education";
 import Experience from "~/sections/Experience";
 import Skills from "~/sections/Skills";
 import Articles from "~/sections/Articles";
+import { Suspense } from "react";
 
 export default function HomePage() {
   return (
@@ -17,7 +18,9 @@ export default function HomePage() {
         <Experience />
         <Education />
         <Projects />
-        <Articles />
+        <Suspense fallback={<div>Loading...</div>}>
+          <Articles />
+        </Suspense>
         <Profile />
       </main>
     </>
