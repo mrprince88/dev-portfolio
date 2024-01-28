@@ -15,7 +15,7 @@ import {
   TbBrandDocker,
   TbBrandGolang,
 } from "react-icons/tb";
-import { FaJava, FaCuttlefish } from "react-icons/fa6";
+import { FaJava } from "react-icons/fa6";
 import { SiJest, SiNestjs, SiTrpc } from "react-icons/si";
 
 export const skillsInfo: {
@@ -114,28 +114,3 @@ export const skillsInfo: {
     ],
   },
 ];
-
-// type Skill = (typeof skillsInfo)[number]["skills"][number];
-
-// export const IconMap: Record<Skill, JSX.Element> = {
-//   Java: <FaJava />,
-//   Javascript: <TbBrandJavascript />,
-//   Typescript: <TbBrandTypescript />,
-//   React: <TbBrandReact />,
-//   "React Native": <TbBrandReactNative />,
-//   C: <FaCuttlefish />,
-//   "Next.js": <TbBrandNextjs />,
-//   Redux: <TbBrandRedux />,
-//   Jest: <SiJest />,
-//   "Node.js": <TbBrandNodejs />,
-//   MongoDB: <TbBrandMongodb />,
-//   Nestjs: <SiNestjs />,
-//   Git: <TbBrandGit />,
-//   SQL: <TbBrandMysql />,
-//   Azure: <TbBrandAzure />,
-//   AWS: <TbBrandAws />,
-//   "Tailwind CSS": <TbBrandTailwind />,
-//   trpc: <SiTrpc />,
-//   Docker: <TbBrandDocker />,
-//   Go: <TbBrandGolang />,
-// };

@@ -3,7 +3,7 @@ import { cn } from "~/lib/utils";
 
 export default function SocialHandles() {
   return (
-    <div className="mt-10 flex space-x-8">
+    <div className="mt-10 flex flex-wrap gap-5">
       {socialHandles.map((socialHandle) => (
         <a
           key={socialHandle.name}

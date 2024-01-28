@@ -7,7 +7,7 @@ export default function Skills() {
     <section className="py-10">
       <h1 className="text-4xl font-bold">Skills</h1>
       <div className="flex">
-        <div className="flex h-[700px] basis-1/3">
+        <div className="flex h-[700px] basis-1/3 max-[768px]:hidden">
           <DisplayLottie animationData={WorkingMan} />
         </div>
         <div className="flex flex-1 flex-col justify-center">
