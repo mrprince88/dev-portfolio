@@ -32,7 +32,7 @@ export default function Header() {
 
       <div className="hidden flex-shrink-0 items-center gap-8 text-xl tracking-tight md:flex">
         <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
+        <a href="#experience">Work Experience</a>
         <a href="#projects">Projects</a>
         <a href="#articles">Articles</a>
         <a href="#contact">Contact Me</a>
@@ -59,7 +59,7 @@ export default function Header() {
         >
           <div className="mb-5 flex flex-col items-center gap-5">
             <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
+            <a href="#experience">Work Experience</a>
             <a href="#projects">Projects</a>
             <a href="#articles">Articles</a>
             <a href="#contact">Contact Me</a>
