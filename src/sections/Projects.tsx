@@ -17,7 +17,7 @@ export default function Projects() {
       </p>
       <Carousel>
         <CarouselPrevious />
-        <CarouselContent>
+        <CarouselContent className="py-20">
           {projectsInfo.map((project) => (
             <CarouselItem className="md:basis-1/2" key={project.projectName}>
               <ProjectCard projectData={project} />
