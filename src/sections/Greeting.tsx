@@ -4,6 +4,7 @@ import HelloAnimation from "public/assets/lottie/HelloWorld.json";
 import { AnchorButton } from "~/components/ui/button";
 import DisplayLottie from "~/components/DisplayLottie";
 import Fade from "~/components/FadeContainer";
+import SocialHandles from "~/components/SocialHandles";
 
 import { greeting } from "~/data";
 
@@ -34,6 +35,7 @@ export default function Greeting() {
               Contact Me
             </AnchorButton>
           </div>
+          <SocialHandles />
         </div>
         <div className="flex h-[700px] flex-1 justify-end max-[768px]:hidden">
           <DisplayLottie animationData={HelloAnimation} />

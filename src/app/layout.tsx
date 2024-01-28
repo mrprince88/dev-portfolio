@@ -22,12 +22,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css"
-        />
-      </head>
       <body className={`font-sans ${montserrat.variable}`}>
         <ThemeProvider>
           <Particles />

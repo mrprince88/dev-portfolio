@@ -23,6 +23,22 @@ const config = {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
       colors: {
+        // social media colors
+        facebook: "#3b5998",
+        linkedin: "#0e76a8",
+        github: "#333",
+        gitlab: "#fca326",
+        gmail: "#ea4335",
+        twitter: "#1da1f2",
+        medium: "#000",
+        stackoverflow: "#f48024",
+        instagram: "#e1306c",
+        kaggle: "#20beff",
+        hashnode: "#2962ff",
+        leetcode: "#f89f1b",
+        codechef: "#5b4638",
+
+        // shadcn colors
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
