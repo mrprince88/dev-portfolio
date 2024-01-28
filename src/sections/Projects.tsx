@@ -11,7 +11,7 @@ import { Fade } from "~/components/ReactReveal";
 
 export default function Projects() {
   return (
-    <section className="mb-20">
+    <section className="my-20">
       <Fade duration={1000} direction="down" triggerOnce>
         <h1 className="text-4xl font-bold">Projects</h1>
         <p className="mb-8 text-2xl">

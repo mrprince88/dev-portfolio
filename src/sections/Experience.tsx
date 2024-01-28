@@ -4,7 +4,7 @@ import { experienceInfo } from "~/data";
 
 export default function Experience() {
   return (
-    <section className="py-10" id="experience">
+    <section className="py-20" id="experience">
       <Slide duration={1000} direction="left" triggerOnce>
         <h1 className="mb-8 text-4xl font-bold">Experience</h1>
         <div className="flex flex-wrap gap-5">
