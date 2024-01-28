@@ -1,11 +1,11 @@
-import Fade from "~/components/FadeContainer";
+import { Fade } from "~/components/ReactReveal";
 import { footer } from "~/data";
 import SocialHandles from "~/components/SocialHandles";
 
 export default function Profile() {
   return (
-    <Fade>
-      <section className="pb-20 pt-20 leading-[1.1] md:pl-20 md:pr-20">
+    <section className="pb-20 pt-20 leading-[1.1] md:pl-20 md:pr-20">
+      <Fade duration={1000} triggerOnce>
         <h1 className="text-4xl font-semibold">{footer.title}</h1>
         <div className="flex justify-between">
           <div className="mt-5 flex flex-col gap-2">
@@ -43,7 +43,7 @@ export default function Profile() {
             />
           </div>
         </div>
-      </section>
-    </Fade>
+      </Fade>
+    </section>
   );
 }
