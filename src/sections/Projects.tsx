@@ -15,7 +15,7 @@ export default function Projects() {
       <Fade duration={1000} triggerOnce>
         <h1 className="my-5 text-4xl font-bold">Projects</h1>
         <p className="mb-8 text-2xl uppercase">
-          Here are some of the projects I've worked on recently
+          {`Here are some of the projects I've worked on recently`}
         </p>
         <Carousel>
           <CarouselPrevious />

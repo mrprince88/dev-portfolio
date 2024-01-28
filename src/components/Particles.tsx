@@ -11,9 +11,13 @@ export default function ParticlesContainer() {
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
-    }).then(() => {
-      setInit(true);
-    });
+    })
+      .then(() => {
+        setInit(true);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   }, []);
 
   const options: ISourceOptions = useMemo(

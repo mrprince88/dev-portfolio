@@ -14,11 +14,11 @@ export default function Skills() {
           <div className="flex flex-1 flex-col justify-center">
             <h1 className="my-5 text-4xl font-bold">What do I do</h1>
             <p className="mb-8 text-2xl uppercase">
-              I love to learn and build new things. Here are some of the
-              technologies I've been working with:
+              {`I love to learn and build new things. Here are some of the
+              technologies I've been working with:`}
             </p>
             {skillsInfo.map((skill) => (
-              <div className="mb-5 flex flex-col">
+              <div className="mb-5 flex flex-col" key={skill.title}>
                 {/* <h2 className="mb-5 text-2xl font-bold">{skill.title}</h2> */}
                 <div className="flex flex-wrap gap-5">
                   {skill.skills.map((skill) => (

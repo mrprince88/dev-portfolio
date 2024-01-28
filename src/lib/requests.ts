@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export const fetchArticles = async () => {
   try {
     const query = `query Publication {
@@ -25,7 +27,8 @@ export const fetchArticles = async () => {
     const json = await data.json();
 
     const articles = json.data.publication.posts.edges.map(
-      (edge: any) => edge.node,
+      (edge: { node: { title: string; brief: string; url: string } }) =>
+        edge.node,
     );
     return articles;
   } catch (error) {
