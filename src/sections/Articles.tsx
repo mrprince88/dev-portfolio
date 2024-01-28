@@ -15,21 +15,23 @@ export const Articles = async () => {
       </p>
       <Slide duration={1000} direction="left" triggerOnce>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
-          {articles?.map((article) => (
-            <a
-              href={article.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={article.title}
-            >
-              <Card key={article.title} rel="noopener noreferrer">
-                <CardHeader>
-                  <CardTitle>{article.title}</CardTitle>
-                </CardHeader>
-                <CardFooter>{article.brief}</CardFooter>
-              </Card>
-            </a>
-          ))}
+          {articles?.map(
+            (article: { title: string; brief: string; url: string }) => (
+              <a
+                href={article.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={article.title}
+              >
+                <Card key={article.title} rel="noopener noreferrer">
+                  <CardHeader>
+                    <CardTitle>{article.title}</CardTitle>
+                  </CardHeader>
+                  <CardFooter>{article.brief}</CardFooter>
+                </Card>
+              </a>
+            ),
+          )}
         </div>
       </Slide>
     </section>
