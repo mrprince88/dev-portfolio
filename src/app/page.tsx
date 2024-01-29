@@ -6,6 +6,7 @@ import Education from "~/sections/Education";
 import Experience from "~/sections/Experience";
 import Skills from "~/sections/Skills";
 import Articles from "~/sections/Articles";
+import Footer from "~/sections/Footer";
 import { Suspense } from "react";
 
 export default function HomePage() {
@@ -22,6 +23,7 @@ export default function HomePage() {
           <Articles />
         </Suspense>
         <Profile />
+        <Footer />
       </main>
     </>
   );
