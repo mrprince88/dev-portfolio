@@ -124,4 +124,5 @@ export const softwareSkills = [
   "My main focus is on building pixel perfect UIs with intuitive UX.",
   "I build scalable backend services with Node.js and Nestjs.",
   "My preferred tech stack: React, React Native, Next.js, and Tailwind CSS.",
+  "I have good knowledge of DSA. I am rated 1740+ on Leetcode.",
 ];
