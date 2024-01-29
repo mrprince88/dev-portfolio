@@ -15,10 +15,10 @@ export default function Header() {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <nav className="flex flex-wrap items-center justify-between bg-background p-6 md:px-20">
+    <nav className="flex flex-wrap items-center justify-between bg-background px-2 py-6 sm:px-6 md:px-20">
       <Link
         href="/"
-        className="text-xl font-semibold tracking-tight md:text-4xl"
+        className="pt-2 text-center text-xl font-semibold tracking-tight sm:text-2xl md:text-4xl"
       >
         <span className="pr-2">&lt;</span>
         <h2 className={cn("mb-4 inline-block", local.className)}>
