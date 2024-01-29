@@ -1,5 +1,14 @@
 export const projectsInfo = [
   {
+    projectName: "Dev Portfolio",
+    projectDesc:
+      "A portfolio website template for developers built using Next.js, Tailwind CSS, shadcn/ui and Typescript. You can use it to build your own portfolio website.",
+    projectImage: "https://i.ibb.co/7Qm3pDw/portfolio.png",
+    projectUrl: "https://mrprince88.vercel.app/",
+    codeLink: "https://github.com/mrprince88/dev-portfolio",
+    tags: ["Next.js", "Tailwind CSS", "shadcn/ui", "Typescript"],
+  },
+  {
     projectName: "Bücherbüchse",
     projectDesc:
       "A platform for book lovers to share their books with other book lovers. Built for the German market with React Native, React Query and Typescript. I worked on it during my tenure at Appleute.",
