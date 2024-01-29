@@ -12,11 +12,11 @@ import { Fade } from "~/components/ReactReveal";
 export default function Projects() {
   return (
     <section className="my-20" id="projects">
-      <Fade duration={1000} triggerOnce>
-        <h1 className="my-5 text-3xl font-bold sm:text-4xl">Projects</h1>
-        <p className="mb-8 text-xl uppercase sm:text-2xl">
-          {`Here are some of the projects I've worked on recently`}
-        </p>
+      <h1 className="my-5 text-3xl font-bold sm:text-4xl">Projects</h1>
+      <p className="mb-8 text-xl uppercase sm:text-2xl">
+        {`Here are some of the projects I've worked on recently`}
+      </p>
+      <Fade duration={1000} direction="left" triggerOnce>
         <Carousel>
           <CarouselPrevious />
           <CarouselContent className="py-5">
