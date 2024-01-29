@@ -5,6 +5,7 @@ import ThemeToggle from "../components/ThemeToggle";
 import { HamburgerMenuIcon, Cross1Icon } from "@radix-ui/react-icons";
 import localFont from "next/font/local";
 import { cn } from "~/lib/utils";
+import Link from "next/link";
 
 const local = localFont({
   src: "fonts/Agustina.woff",
@@ -15,7 +16,7 @@ export default function Header() {
 
   return (
     <nav className="flex flex-wrap items-center justify-between bg-background p-6 md:px-20">
-      <a href="/">
+      <Link href="/">
         <span className="pr-2 text-4xl font-semibold tracking-tight">&lt;</span>
         <h2
           className={cn(
@@ -28,14 +29,14 @@ export default function Header() {
         <span className="pl-2 text-4xl font-semibold tracking-tight">
           /&gt;
         </span>
-      </a>
+      </Link>
 
       <div className="hidden flex-shrink-0 items-center gap-8 text-xl tracking-tight md:flex">
-        <a href="#skills">Skills</a>
-        <a href="#experience">Work Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#articles">Articles</a>
-        <a href="#contact">Contact Me</a>
+        <Link href="#skills">Skills</Link>
+        <Link href="#experience">Work Experience</Link>
+        <Link href="#projects">Projects</Link>
+        <Link href="#articles">Articles</Link>
+        <Link href="#contact">Contact Me</Link>
         <ThemeToggle />
       </div>
 
@@ -58,11 +59,11 @@ export default function Header() {
           )}
         >
           <div className="mb-5 flex flex-col items-center gap-5">
-            <a href="#skills">Skills</a>
-            <a href="#experience">Work Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#articles">Articles</a>
-            <a href="#contact">Contact Me</a>
+            <Link href="#skills">Skills</Link>
+            <Link href="#experience">Work Experience</Link>
+            <Link href="#projects">Projects</Link>
+            <Link href="#articles">Articles</Link>
+            <Link href="#contact">Contact Me</Link>
             <ThemeToggle />
           </div>
         </div>
