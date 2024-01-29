@@ -6,7 +6,7 @@ import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react";
 
-import Autplay from "embla-carousel-autoplay";
+import Autoplay from "embla-carousel-autoplay";
 
 import { cn } from "~/lib/utils";
 import { Button } from "~/components/ui/button";
@@ -64,12 +64,14 @@ const Carousel = React.forwardRef<
       {
         ...opts,
         axis: orientation === "horizontal" ? "x" : "y",
+        loop: true,
       },
       [
-        Autplay({
+        Autoplay({
           autoplay: true,
           delay: 5000,
           stopOnInteraction: true,
+          loop: true,
         }),
         ...plugins,
       ],
