@@ -15,7 +15,7 @@ export default function Header() {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <nav className="flex flex-wrap items-center justify-between bg-background px-2 py-6 sm:px-6 md:px-20">
+    <nav className="flex flex-wrap items-center justify-between bg-background py-6 sm:px-6 md:px-20">
       <Link
         href="/"
         className="pt-2 text-center text-xl font-semibold tracking-tight sm:text-2xl md:text-4xl"

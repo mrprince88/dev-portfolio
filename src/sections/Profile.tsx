@@ -32,7 +32,7 @@ export default function Profile() {
           </div>
           <div className="max-[768px]:order-1 max-[768px]:my-10 md:ml-10">
             <img
-              src="/assets/images/profile-picture.png"
+              src={footer.profileImage}
               alt="Contact"
               loading="lazy"
               className="w-80 rounded-full border-8 border-blue-400"
