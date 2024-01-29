@@ -9,9 +9,10 @@ export default function Experience() {
         <h1 className="mb-8 text-4xl font-bold">Experience</h1>
         <div className="grid-row grid grow-0 auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
           {experienceInfo.map((experience) => (
-            <div key={experience.companyName} className="flex flex-grow">
-              <ExperienceCard experienceData={experience} />
-            </div>
+            <ExperienceCard
+              experienceData={experience}
+              key={experience.companyName}
+            />
           ))}
         </div>
       </Slide>
