@@ -16,19 +16,15 @@ export default function Header() {
 
   return (
     <nav className="flex flex-wrap items-center justify-between bg-background p-6 md:px-20">
-      <Link href="/">
-        <span className="pr-2 text-4xl font-semibold tracking-tight">&lt;</span>
-        <h2
-          className={cn(
-            "mb-4 inline-block text-3xl font-semibold tracking-tight md:text-4xl ",
-            local.className,
-          )}
-        >
+      <Link
+        href="/"
+        className="text-2xl font-semibold tracking-tight md:text-4xl"
+      >
+        <span className="pr-2">&lt;</span>
+        <h2 className={cn("mb-4 inline-block", local.className)}>
           Prince Singh
         </h2>
-        <span className="pl-2 text-4xl font-semibold tracking-tight">
-          /&gt;
-        </span>
+        <span className="pl-2">/&gt;</span>
       </Link>
 
       <div className="hidden flex-shrink-0 items-center gap-8 text-xl tracking-tight md:flex">

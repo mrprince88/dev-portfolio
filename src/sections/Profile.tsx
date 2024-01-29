@@ -9,10 +9,12 @@ export default function Profile() {
   return (
     <section className="pb-20 pt-20 leading-[1.1]" id="contact">
       <Fade duration={1000} triggerOnce>
-        <h1 className="text-4xl font-semibold">{footer.title}</h1>
+        <h1 className="text-3xl font-semibold sm:text-4xl">{footer.title}</h1>
         <div className="flex flex-col justify-between md:flex-row">
           <div className="mt-5 flex flex-col gap-2 max-[768px]:order-2">
-            <p className="text-2xl font-normal uppercase">{footer.subtitle}</p>
+            <p className="text-xl font-normal uppercase sm:text-2xl">
+              {footer.subtitle}
+            </p>
             <span className="my-5">
               <span className="text-xl">
                 <IoLocationOutline className="mb-1 mr-2 inline-block" />

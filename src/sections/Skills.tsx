@@ -12,8 +12,10 @@ export default function Skills() {
             <DisplayLottie animationData={WorkingMan} />
           </div>
           <div className="flex flex-1 flex-col justify-center">
-            <h1 className="my-5 text-4xl font-bold">What do I do</h1>
-            <p className="mb-8 text-2xl uppercase">
+            <h1 className="my-5 text-3xl font-bold sm:text-4xl">
+              What do I do
+            </h1>
+            <p className="mb-8 text-xl uppercase sm:text-2xl">
               {`I love to learn and build new things. Here are some of the
               technologies I've been working with:`}
             </p>

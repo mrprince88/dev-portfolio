@@ -13,12 +13,12 @@ export default function Greeting() {
     <Fade duration={1000} triggerOnce>
       <section className="mb-20 flex items-center justify-between px-20 pt-20 max-[600px]:px-2 max-[320px]:flex-col md:flex-row">
         <div className="flex flex-1 flex-col">
-          <h1 className="py-4 text-7xl font-bold leading-[1.1] tracking-tight">
+          <h1 className="py-4 text-4xl font-bold leading-[1.1] tracking-tight sm:text-7xl">
             {greeting.greeting + " "}
             <span className="text-blue-400">{greeting.name}</span>
             <span className="inline-block animate-wave">{emoji("👋")}</span>
           </h1>
-          <p className="text-3xl leading-[40px] tracking-tight">
+          <p className="text-xl tracking-tight sm:text-3xl sm:leading-[40px]">
             {greeting.description}
           </p>
           <div className="mt-10 flex items-center space-x-8">
