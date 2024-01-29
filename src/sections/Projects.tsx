@@ -16,7 +16,7 @@ export default function Projects() {
       <p className="mb-8 text-xl uppercase sm:text-2xl">
         {`Here are some of the projects I've worked on recently`}
       </p>
-      <Fade duration={1000} direction="left" triggerOnce>
+      <Fade duration={1000} direction="up" triggerOnce>
         <Carousel>
           <CarouselPrevious />
           <CarouselContent className="py-5">
