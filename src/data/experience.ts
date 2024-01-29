@@ -6,6 +6,7 @@ export const experienceInfo = [
     I started working here an intern and was later promoted to a Software Engineer. I have worked on multiple projects here including: Bücherbüchse, HeyFam and Easypostlab.`,
     duration: "September 2022 - November 2023",
     src: "https://www.appleute.de/wp-content/uploads/2021/08/Frame-46.svg",
+    url: "https://www.appleute.de/",
     techStack: [
       "React",
       "React Native",
@@ -25,6 +26,7 @@ I worked as an Associate Software Engineer Intern for 4 months and made signific
     src: "https://oneiot.io/_next/static/media/oneiotLogo2.f8a9c0fb.png",
     duration: "October 2021 - February 2022",
     techStack: ["React", "React Native", "Node.js"],
+    url: "https://oneiot.io/",
   },
   {
     companyName: "Probooking.io",
@@ -34,5 +36,6 @@ I worked as a Frontend Developer Intern for 3 weeks. My work was centered around
     src: "https://www.getprobooking.com/images/logo.png",
     duration: "April 2021 - May 2021",
     techStack: ["Javascript", "HTML"],
+    url: "https://www.getprobooking.com/",
   },
 ];

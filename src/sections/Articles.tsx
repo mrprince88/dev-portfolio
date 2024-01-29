@@ -3,6 +3,7 @@
 import { fetchArticles } from "~/lib/requests";
 import { Card, CardFooter, CardHeader, CardTitle } from "~/components/ui/card";
 import { Slide } from "~/components/ReactReveal";
+import Link from "next/link";
 
 export const Articles = async () => {
   const articles = await fetchArticles();
@@ -17,7 +18,7 @@ export const Articles = async () => {
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
           {articles?.map(
             (article: { title: string; brief: string; url: string }) => (
-              <a
+              <Link
                 href={article.url}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -29,7 +30,7 @@ export const Articles = async () => {
                   </CardHeader>
                   <CardFooter>{article.brief}</CardFooter>
                 </Card>
-              </a>
+              </Link>
             ),
           )}
         </div>
