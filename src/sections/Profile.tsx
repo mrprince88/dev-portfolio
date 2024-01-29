@@ -18,17 +18,14 @@ export default function Profile() {
                 <IoLocationOutline className="mb-1 mr-2 inline-block" />
                 <span>{footer.location}</span>
               </span>
-              <span className="ml-4 text-xl">
+              <div className="mt-5 text-xl md:ml-4 md:inline-block">
                 <FaPhoneAlt className="mb-1 mr-2 inline-block" />
                 <span>{footer.phone}</span>
-              </span>
+              </div>
             </span>
             <SocialHandles />
             <p className="my-8 text-xl">
-              Open to opportunities:{" "}
-              <span className="text-blue-400">
-                {footer.openToOpportunities}
-              </span>
+              Open to opportunities: <span>{footer.openToOpportunities}</span>
             </p>
           </div>
           <div className="max-[768px]:order-1 max-[768px]:my-10 md:ml-10">

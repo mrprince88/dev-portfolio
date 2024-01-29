@@ -20,7 +20,7 @@ export default function Header() {
         <span className="pr-2 text-4xl font-semibold tracking-tight">&lt;</span>
         <h2
           className={cn(
-            "inline-block text-3xl font-semibold tracking-tight md:text-4xl ",
+            "mb-4 inline-block text-3xl font-semibold tracking-tight md:text-4xl ",
             local.className,
           )}
         >
