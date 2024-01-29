@@ -29,6 +29,7 @@ export default function ExperienceCard({
         <img
           alt={experienceData?.companyName}
           src={experienceData?.src}
+          loading="lazy"
           className="h-[280px] w-full rounded-t-xl bg-white object-contain"
         />
         <CardHeader className="text-center">

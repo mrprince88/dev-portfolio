@@ -34,6 +34,7 @@ export default function Profile() {
             <img
               src="/assets/images/profile-picture.png"
               alt="Contact"
+              loading="lazy"
               className="w-80 rounded-full border-8 border-blue-400"
             />
           </div>

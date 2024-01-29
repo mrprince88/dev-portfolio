@@ -27,6 +27,7 @@ export default function ProjectCard({
           alt={projectData?.projectName}
           src={projectData?.projectImage}
           className="w-fill h-96 object-cover"
+          loading="lazy"
         />
       </CardHeader>
       <CardTitle>{projectData?.projectName}</CardTitle>
