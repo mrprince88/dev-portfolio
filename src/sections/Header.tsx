@@ -18,7 +18,7 @@ export default function Header() {
     <nav className="flex flex-wrap items-center justify-between bg-background p-6 md:px-20">
       <Link
         href="/"
-        className="text-2xl font-semibold tracking-tight md:text-4xl"
+        className="text-xl font-semibold tracking-tight md:text-4xl"
       >
         <span className="pr-2">&lt;</span>
         <h2 className={cn("mb-4 inline-block", local.className)}>

@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main className="max-[768px]:px-10 md:px-20">
+      <main className="px-5 sm:px-10 md:px-20">
         <Greeting />
         <Skills />
         <Experience />

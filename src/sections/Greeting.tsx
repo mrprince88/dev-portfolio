@@ -21,7 +21,7 @@ export default function Greeting() {
           <p className="text-xl tracking-tight sm:text-3xl sm:leading-[40px]">
             {greeting.description}
           </p>
-          <div className="mt-10 flex items-center space-x-8">
+          <div className="mt-10 flex flex-col gap-5 min-[320px]:flex-row min-[320px]:items-center">
             <AnchorButton
               variant="default"
               size="lg"
