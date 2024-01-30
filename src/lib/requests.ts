@@ -20,8 +20,8 @@ export const fetchArticles = async () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "cache-control": "max-age=2000, private, must-revalidate",
       },
+      next: { revalidate: 3600 },
       body: JSON.stringify({ query }),
     });
 
