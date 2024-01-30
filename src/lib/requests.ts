@@ -20,6 +20,7 @@ export const fetchArticles = async () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "cache-control": "max-age=2000, private, must-revalidate",
       },
       body: JSON.stringify({ query }),
     });
@@ -30,6 +31,7 @@ export const fetchArticles = async () => {
       (edge: { node: { title: string; brief: string; url: string } }) =>
         edge.node,
     );
+
     return articles;
   } catch (error) {
     console.log(error);

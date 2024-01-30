@@ -22,9 +22,10 @@ export const Articles = async () => {
                 href={article.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex"
                 key={article.title}
               >
-                <Card key={article.title} rel="noopener noreferrer">
+                <Card key={article.title}>
                   <CardHeader>
                     <CardTitle>{article.title}</CardTitle>
                   </CardHeader>
