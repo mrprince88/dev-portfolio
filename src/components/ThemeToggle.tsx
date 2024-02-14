@@ -11,7 +11,7 @@ export default function ThemeToggle() {
 
   useEffect(() => setMounted(true), []);
 
-  if (!mounted) return <div className="h-6 w-14 rounded-full bg-input" />;
+  if (!mounted) return <div className="h-6 w-16 rounded-full bg-input" />;
 
   return (
     <Switch
@@ -21,7 +21,7 @@ export default function ThemeToggle() {
       }}
       thumbIcon={
         resolvedTheme === "dark" ? (
-          <MoonIcon />
+          <MoonIcon className="text-black" />
         ) : (
           <SunIcon className="text-yellow-600" />
         )
