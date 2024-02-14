@@ -1,8 +1,6 @@
-/* eslint-disable */
-
 import { fetchArticles } from "~/lib/requests";
 import { Card, CardFooter, CardHeader, CardTitle } from "~/components/ui/card";
-import { Slide } from "~/components/ReactReveal";
+import { Fade } from "~/components/ReactReveal";
 import Link from "next/link";
 
 export const Articles = async () => {
@@ -14,7 +12,7 @@ export const Articles = async () => {
       <p className="mb-8 text-xl uppercase sm:text-2xl">
         {`Here are some of the articles I've written recently`}
       </p>
-      <Slide duration={1000} direction="left" triggerOnce>
+      <Fade duration={1000} triggerOnce>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
           {articles?.map(
             (article: { title: string; brief: string; url: string }) => (
@@ -35,7 +33,7 @@ export const Articles = async () => {
             ),
           )}
         </div>
-      </Slide>
+      </Fade>
     </section>
   );
 };
