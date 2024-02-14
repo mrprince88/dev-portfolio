@@ -1,6 +1,7 @@
 import "~/styles/globals.css";
 import ThemeProvider from "~/providers/ThemeProvider";
 import Particles from "~/components/Particles";
+import { Analytics } from "@vercel/analytics/react";
 
 import { Montserrat } from "next/font/google";
 
@@ -24,6 +25,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`font-sans ${montserrat.variable}`}>
         <ThemeProvider>
+          <Analytics />
           <Particles />
           {children}
         </ThemeProvider>
