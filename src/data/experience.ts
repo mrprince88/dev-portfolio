@@ -25,7 +25,7 @@ export const experienceInfo = [
   {
     companyName: "Firewires OneIOT",
     role: "Associate Software Engineer Intern",
-    description: `Firewires OneIOT is a IOT based startup based in Hyderabad.\n`,
+    description: `Firewires OneIOT is an IOT based startup headquartered in Hyderabad, India.`,
     descBullets: [
       "Remodeled the entire frontend of the web dashboard built using React.",
       "Architected building multiple features for the mobile app using React Native.",
@@ -39,7 +39,7 @@ export const experienceInfo = [
   {
     companyName: "Probooking.io",
     role: "Frontend Developer Intern",
-    description: `Probooking.io is an appointment booking platform. The company is based in Chandigarh.`,
+    description: `Probooking.io is an appointment booking platform. The company is based in Chandigarh, India.`,
     descBullets: [
       "Assisted in the development of the frontend interface of the web app.",
       "Worked closely with the founder to build and test algorithms for time slot generation on the frontend.",
