@@ -28,7 +28,7 @@ export const experienceInfo = [
     description: `Firewires OneIOT is an IOT based startup headquartered in Hyderabad, India.`,
     descBullets: [
       "Remodeled the entire frontend of the web dashboard built using React.",
-      "Architected building multiple features for the mobile app using React Native.",
+      "Architected and built multiple features for the mobile app using React Native.",
       "Worked on the backend using Node.js to build REST APIs.",
     ],
     src: "https://oneiot.io/_next/static/media/oneiotLogo2.f8a9c0fb.png",
