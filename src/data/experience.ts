@@ -5,8 +5,8 @@ export const experienceInfo = [
     description: "Appleute is a startup consulting firm based in Germany.",
     descBullets: [
       "I started working as an intern and was later promoted to a full-time role.",
-      "Developed and maintained the frontend of the web and mobile apps.",
-      "I worked on multiple end to end projects including Bücherbüchse - a mobile app for book readers and an Heyam - a gift catalogue platform.",
+      "Developed and maintained the frontend and backend of the web and mobile apps.",
+      "I worked on multiple end to end projects including Bücherbüchse - a mobile app for book readers and Heyam - a gift catalogue platform.",
     ],
     duration: "September 2022 - November 2023",
     src: "https://www.appleute.de/wp-content/uploads/2021/08/Frame-46.svg",
