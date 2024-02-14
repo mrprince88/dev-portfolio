@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 export const fetchArticles = async () => {
   try {
     const query = `query Publication {
@@ -16,7 +14,23 @@ export const fetchArticles = async () => {
         }
       }`;
 
-    const data = await fetch("https://gql.hashnode.com/", {
+    const data: {
+      json: () => Promise<{
+        data: {
+          publication: {
+            posts: {
+              edges: {
+                node: {
+                  title: string;
+                  brief: string;
+                  url: string;
+                };
+              }[];
+            };
+          };
+        };
+      }>;
+    } = await fetch("https://gql.hashnode.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

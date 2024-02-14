@@ -14,24 +14,22 @@ export const Articles = async () => {
       </p>
       <Fade duration={1000} triggerOnce>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
-          {articles?.map(
-            (article: { title: string; brief: string; url: string }) => (
-              <Link
-                href={article.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex"
-                key={article.title}
-              >
-                <Card key={article.title}>
-                  <CardHeader>
-                    <CardTitle>{article.title}</CardTitle>
-                  </CardHeader>
-                  <CardFooter>{article.brief}</CardFooter>
-                </Card>
-              </Link>
-            ),
-          )}
+          {articles?.map((article) => (
+            <Link
+              href={article.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex"
+              key={article.title}
+            >
+              <Card key={article.title}>
+                <CardHeader>
+                  <CardTitle>{article.title}</CardTitle>
+                </CardHeader>
+                <CardFooter>{article.brief}</CardFooter>
+              </Card>
+            </Link>
+          ))}
         </div>
       </Fade>
     </section>
