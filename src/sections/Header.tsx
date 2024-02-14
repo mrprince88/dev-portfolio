@@ -3,28 +3,17 @@
 import React from "react";
 import ThemeToggle from "../components/ThemeToggle";
 import { HamburgerMenuIcon, Cross1Icon } from "@radix-ui/react-icons";
-import localFont from "next/font/local";
-import { cn } from "~/lib/utils";
+import HeadingTitle from "../components/HeadingTitle";
 import Link from "next/link";
-
-const local = localFont({
-  src: "fonts/Agustina.woff",
-});
+import { cn } from "~/lib/utils";
 
 export default function Header() {
   const [open, setOpen] = React.useState(false);
 
   return (
     <nav className="flex flex-wrap items-center justify-between bg-background px-2 py-6 sm:px-6 md:px-20">
-      <Link
-        href="/"
-        className="pt-2 text-center text-xl font-semibold tracking-tight sm:text-2xl md:text-4xl"
-      >
-        <span className="pr-2">&lt;</span>
-        <h2 className={cn("mb-4 inline-block", local.className)}>
-          Prince Singh
-        </h2>
-        <span className="pl-2">/&gt;</span>
+      <Link href="/">
+        <HeadingTitle />
       </Link>
 
       <div className="hidden flex-shrink-0 items-center gap-8 text-xl tracking-tight md:flex">
