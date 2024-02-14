@@ -2,8 +2,12 @@ export const experienceInfo = [
   {
     companyName: "Appleute",
     role: "Software Engineer",
-    description: `Appleute is a startup based in Germany. \n
-    I started working here an intern and was later promoted to a Software Engineer. I worked on delivering multiple end to end projects including: Bücherbüchse, HeyFam and Easypostlab.`,
+    description: "Appleute is a startup consulting firm based in Germany.",
+    descBullets: [
+      "I started working as an intern and was later promoted to a full-time role.",
+      "Developed and maintained the frontend of the web and mobile apps.",
+      "I worked on multiple end to end projects including Bücherbüchse - a mobile app for book readers and an Heyam - a gift catalogue platform.",
+    ],
     duration: "September 2022 - November 2023",
     src: "https://www.appleute.de/wp-content/uploads/2021/08/Frame-46.svg",
     url: "https://www.appleute.de/",
@@ -21,8 +25,12 @@ export const experienceInfo = [
   {
     companyName: "Firewires OneIOT",
     role: "Associate Software Engineer Intern",
-    description: `Firewires OneIOT is a startup based in Banglore.\n
-  I remodeled the entire frontend of the customer dashboard and added new features to the mobile app. I also worked on the backend of the mobile app implementing new features and fixing bugs.`,
+    description: `Firewires OneIOT is a IOT based startup based in Hyderabad.\n`,
+    descBullets: [
+      "Remodeled the entire frontend of the web dashboard built using React.",
+      "Architected building multiple features for the mobile app using React Native.",
+      "Worked on the backend using Node.js to build REST APIs.",
+    ],
     src: "https://oneiot.io/_next/static/media/oneiotLogo2.f8a9c0fb.png",
     duration: "October 2021 - February 2022",
     techStack: ["React", "React Native", "Node.js"],
@@ -31,8 +39,12 @@ export const experienceInfo = [
   {
     companyName: "Probooking.io",
     role: "Frontend Developer Intern",
-    description: `Probooking.io is a startup based in Chandigarh.\n
-My work was focused around assisting the team in building frontend interface for the appointment scheduling app. I worked closely with the founder to develop and implement the algorithms for time slot generation on the frontend.`,
+    description: `Probooking.io is an appointment booking platform. The company is based in Chandigarh.`,
+    descBullets: [
+      "Assisted in the development of the frontend interface of the web app.",
+      "Worked closely with the founder to build and test algorithms for time slot generation on the frontend.",
+      "Ran benchmarks and tests to ensure the web app was performant.",
+    ],
     src: "https://www.getprobooking.com/images/logo.png",
     duration: "April 2021 - May 2021",
     techStack: ["Javascript", "HTML"],

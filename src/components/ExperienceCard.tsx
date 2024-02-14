@@ -17,6 +17,7 @@ type ExperienceCardProps = {
     techStack: string[];
     src: string;
     url: string;
+    descBullets?: string[];
   };
 };
 
@@ -37,10 +38,13 @@ export default function ExperienceCard({
           <p className="text-xl">{experienceData?.companyName}</p>
           <p className="text-xl">{experienceData?.duration}</p>
         </CardHeader>
-        <CardContent>
-          <p className="whitespace-pre-line text-xl">
-            {experienceData?.description}
-          </p>
+        <CardContent className="whitespace-pre-line text-lg">
+          {experienceData?.description}
+          <ul className="list-disc pl-5">
+            {experienceData?.descBullets?.map((desc, index) => (
+              <li key={`${experienceData?.companyName}${index}`}>{desc}</li>
+            ))}
+          </ul>
         </CardContent>
         <CardFooter className="justify-start">
           <div className="text-xl">
