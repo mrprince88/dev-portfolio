@@ -35,7 +35,7 @@ export default function Profile() {
               src={footer.profileImage}
               alt="Contact"
               loading="lazy"
-              className="w-80 rounded-full border-8 border-blue-400"
+              className="aspect-square w-80 rounded-full border-8 border-blue-400 object-cover"
             />
           </div>
         </div>
