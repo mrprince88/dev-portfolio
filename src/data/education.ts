@@ -8,5 +8,3 @@ export const educationInfo = [
     url: "https://jssaten.ac.in/",
   },
 ];
-
-// test commit
