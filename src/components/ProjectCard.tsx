@@ -57,6 +57,3 @@ export default function ProjectCard({
     </Card>
   );
 }
-
-
-// commit
