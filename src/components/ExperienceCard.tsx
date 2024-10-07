@@ -1,12 +1,12 @@
+import Link from "next/link";
+
 import {
   Card,
   CardHeader,
   CardContent,
   CardFooter,
 } from "~/components/ui/card";
-
 import { Badge } from "~/components/ui/badge";
-import Link from "next/link";
 
 type ExperienceCardProps = {
   experienceData: {
