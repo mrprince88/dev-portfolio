@@ -1,12 +1,12 @@
 import DisplayLottie from "~/components/DisplayLottie";
-import { Slide } from "~/components/ReactReveal";
+import { Fade } from "~/components/ReactReveal";
 import WorkingMan from "public/assets/lottie/Working.json";
 import { skillsInfo, softwareSkills } from "~/data";
 
 export default function Skills() {
   return (
-    <section className="py-20" id="skills">
-      <Slide duration={1000} direction="right" triggerOnce>
+    <Fade duration={1000} triggerOnce>
+      <section className="py-20" id="skills">
         <div className="flex">
           <div className="flex h-[800px] basis-1/2 max-[768px]:hidden">
             <DisplayLottie animationData={WorkingMan} />
@@ -48,7 +48,7 @@ export default function Skills() {
             </div>
           </div>
         </div>
-      </Slide>
-    </section>
+      </section>
+    </Fade>
   );
 }

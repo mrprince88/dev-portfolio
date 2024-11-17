@@ -14,9 +14,10 @@ import {
   TbBrandTailwind,
   TbBrandDocker,
   TbBrandGolang,
+  TbBrandPython,
 } from "react-icons/tb";
 import { FaJava } from "react-icons/fa6";
-import { SiJest, SiNestjs, SiTrpc, SiExpo } from "react-icons/si";
+import { SiJest, SiNestjs, SiTrpc, SiExpo, SiKubernetes } from "react-icons/si";
 
 export const skillsInfo: {
   title: string;
@@ -36,6 +37,10 @@ export const skillsInfo: {
       {
         name: "Java",
         icon: <FaJava />,
+      },
+      {
+        name: "Python",
+        icon: <TbBrandPython />,
       },
     ],
   },
@@ -67,6 +72,15 @@ export const skillsInfo: {
         icon: <SiJest />,
       },
       {
+        name: "Tailwind CSS",
+        icon: <TbBrandTailwind />,
+      },
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      {
         name: "Node.js",
         icon: <TbBrandNodejs />,
       },
@@ -94,10 +108,7 @@ export const skillsInfo: {
         name: "AWS",
         icon: <TbBrandAws />,
       },
-      {
-        name: "Tailwind CSS",
-        icon: <TbBrandTailwind />,
-      },
+
       {
         name: "trpc",
         icon: <SiTrpc />,
@@ -105,6 +116,10 @@ export const skillsInfo: {
       {
         name: "Docker",
         icon: <TbBrandDocker />,
+      },
+      {
+        name: "Kubernetes",
+        icon: <SiKubernetes />,
       },
     ],
   },

@@ -31,7 +31,7 @@ export default function ExperienceCard({
           alt={experienceData?.companyName}
           src={experienceData?.src}
           loading="lazy"
-          className="h-[280px] w-full rounded-t-xl bg-white object-contain"
+          className={`h-[280px] w-full rounded-t-xl object-contain ${experienceData?.companyName === "Firewires OneIOT" ? "bg-black" : "bg-white"}`}
         />
         <CardHeader className="text-center">
           <h2 className="text-2xl font-bold">{experienceData?.role}</h2>
@@ -48,15 +48,17 @@ export default function ExperienceCard({
         </CardContent>
         <CardFooter className="justify-start">
           <div className="text-xl">
-            Tech stack:{" "}
-            {experienceData?.techStack?.map((stack) => (
-              <Badge
-                key={`${experienceData?.companyName}${stack}`}
-                className="mr-2"
-              >
-                {stack}
-              </Badge>
-            ))}
+            Tech stack
+            <div>
+              {experienceData?.techStack?.map((stack) => (
+                <Badge
+                  key={`${experienceData?.companyName}${stack}`}
+                  className="mr-2"
+                >
+                  {stack}
+                </Badge>
+              ))}
+            </div>
           </div>
         </CardFooter>
       </Link>
