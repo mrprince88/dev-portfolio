@@ -58,9 +58,10 @@ export const experienceInfo = [
   {
     companyName: "Firewires OneIOT",
     role: "Associate Software Engineer Intern",
-    description: `Firewires OneIOT is an IOT based startup headquartered in Hyderabad, India.`,
+    description: `Firewires OneIOT is an IOT based startup based in Hyderabad, India.`,
     descBullets: [
-      "Remodeled the entire frontend of the web dashboard built using React.",
+      "Translated UI/UX Figma design into a web dashboard and mobile app, achieving a seamless user experience.",
+      "Fixed bugs and improved overall Lighthouse score for the dashboard by 65%.",
       "Architected and built multiple features for the mobile app using React Native.",
       "Worked on the backend using Node.js to build REST APIs.",
     ],
@@ -69,18 +70,18 @@ export const experienceInfo = [
     techStack: ["React", "React Native", "Node.js"],
     url: "https://oneiot.io/",
   },
-  {
-    companyName: "Probooking.io",
-    role: "Frontend Developer Intern",
-    description: `Probooking.io is an appointment booking platform. The company is based in Chandigarh, India.`,
-    descBullets: [
-      "Assisted in the development of the frontend interface of the web app.",
-      "Worked closely with the founder to build and test algorithms for time slot generation on the frontend.",
-      "Ran benchmarks and tests to ensure the web app was performant.",
-    ],
-    src: "https://www.getprobooking.com/images/logo.png",
-    duration: "April 2021 - May 2021",
-    techStack: ["Javascript", "HTML"],
-    url: "https://www.getprobooking.com/",
-  },
+  // {
+  //   companyName: "Probooking.io",
+  //   role: "Frontend Developer Intern",
+  //   description: `Probooking.io is an appointment booking platform. The company is based in Chandigarh, India.`,
+  //   descBullets: [
+  //     "Assisted in the development of the frontend interface of the web app.",
+  //     "Worked closely with the founder to build and test algorithms for time slot generation on the frontend.",
+  //     "Ran benchmarks and tests to ensure the web app was performant.",
+  //   ],
+  //   src: "https://www.getprobooking.com/images/logo.png",
+  //   duration: "April 2021 - May 2021",
+  //   techStack: ["Javascript", "HTML"],
+  //   url: "https://www.getprobooking.com/",
+  // },
 ];
