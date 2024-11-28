@@ -2,6 +2,7 @@ import "~/styles/globals.css";
 import ThemeProvider from "~/providers/ThemeProvider";
 import Particles from "~/components/Particles";
 import { Analytics } from "@vercel/analytics/react";
+import type { Metadata } from "next";
 
 import { Montserrat } from "next/font/google";
 
@@ -10,11 +11,11 @@ const montserrat = Montserrat({
   variable: "--font-sans",
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Prince Singh | Software Engineer",
   description: "Prince Singh is a full stack software engineer",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
-  opengraph: {
+  openGraph: {
     title: "Prince Singh | Software Engineer",
     description: "Prince Singh is a full stack software engineer",
     images: [{ url: "/og-image.png" }],
