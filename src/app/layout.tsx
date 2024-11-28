@@ -11,8 +11,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Prince Singh | Portfolio",
-  description: "Prince Singh is a full stack developer",
+  title: "Prince Singh | Software Engineer",
+  description: "Prince Singh is a full stack software engineer",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
