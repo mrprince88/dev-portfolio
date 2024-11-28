@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Prince Singh | Software Engineer",
     description: "Prince Singh is a full stack software engineer",
-    images: [{ url: "/og-image.png" }],
+    images: [{ url: new URL("https://mrprince88.vercel.app/og-image.png") }],
   },
 };
 
