@@ -14,6 +14,11 @@ export const metadata = {
   title: "Prince Singh | Software Engineer",
   description: "Prince Singh is a full stack software engineer",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
+  opengraph: {
+    title: "Prince Singh | Software Engineer",
+    description: "Prince Singh is a full stack software engineer",
+    images: [{ url: "/og-image.png" }],
+  },
 };
 
 export default function RootLayout({
