@@ -4,5 +4,5 @@ export const greeting = {
   description:
     "An experienced Full Stack Developer with expertise in building websites and mobile applications with a focus on performance and user experience.",
   resumeLink:
-    "https://drive.google.com/file/d/1F9x-l9rwS73oWQwALfjygsJz_K8rdfQM/view?usp=sharing",
+    "https://drive.google.com/file/d/10HZWi233WoBdF3Oh03cYhZ8Glx6WebFw/view?usp=sharing",
 };
