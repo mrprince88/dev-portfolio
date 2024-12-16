@@ -29,7 +29,7 @@ export const socialHandles: {
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/mrprince0088",
+    href: "https://twitter.com/mrprincetwts",
     className: "bg-twitter",
     Icon: <FaTwitter />,
   },
