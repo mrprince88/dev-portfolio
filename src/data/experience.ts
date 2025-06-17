@@ -1,5 +1,19 @@
 export const experienceInfo = [
   {
+    companyName: "Fareportal",
+    role: "Sr. Software Engineer",
+    description:
+      "Fareportal is a leading travel technology company based in New York City, USA.",
+    descBullets: [
+      "Established best practices and led end to end development of 2 projects from inception to deployment.",
+      "Developed a performance management tool for the HR team to monitor company performance, enhancing visibility and helping in effective decision-making.",
+    ],
+    duration: "February 2025 - Present",
+    src: "https://seekvectorlogo.net/wp-content/uploads/2019/10/fareportal-vector-logo.png",
+    url: "https://www.fareportal.com",
+    techStack: ["Next.js", "React"],
+  },
+  {
     companyName: "Lodus",
     role: "Software Engineer",
     description:
@@ -71,18 +85,18 @@ export const experienceInfo = [
     techStack: ["React", "React Native", "Node.js"],
     url: "https://oneiot.io/",
   },
-  // {
-  //   companyName: "Probooking.io",
-  //   role: "Frontend Developer Intern",
-  //   description: `Probooking.io is an appointment booking platform. The company is based in Chandigarh, India.`,
-  //   descBullets: [
-  //     "Assisted in the development of the frontend interface of the web app.",
-  //     "Worked closely with the founder to build and test algorithms for time slot generation on the frontend.",
-  //     "Ran benchmarks and tests to ensure the web app was performant.",
-  //   ],
-  //   src: "https://www.getprobooking.com/images/logo.png",
-  //   duration: "April 2021 - May 2021",
-  //   techStack: ["Javascript", "HTML"],
-  //   url: "https://www.getprobooking.com/",
-  // },
+  {
+    companyName: "Probooking.io",
+    role: "Frontend Developer Intern",
+    description: `Probooking.io is an appointment booking platform. The company is based in Chandigarh, India.`,
+    descBullets: [
+      "Assisted in the development of the frontend interface of the web app.",
+      "Worked closely with the founder to build and test algorithms for time slot generation on the frontend.",
+      "Ran benchmarks and tests to ensure the web app was performant.",
+    ],
+    src: "https://www.getprobooking.com/images/logo.png",
+    duration: "April 2021 - May 2021",
+    techStack: ["Javascript", "HTML"],
+    url: "https://www.getprobooking.com/",
+  },
 ];
