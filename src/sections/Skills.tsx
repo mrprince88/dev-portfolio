@@ -39,13 +39,14 @@ export default function Skills() {
                 </div>
               </div>
             ))}
-            <div className="flex flex-col justify-center gap-5">
+            <ul className="flex flex-col justify-center gap-5">
               {softwareSkills.map((skill, index) => (
-                <p className="text-bold text-xl" key={`softskills${index}`}>
-                  ⚡ {skill}
-                </p>
+                <li className="text-bold text-xl flex gap-2" key={`softskills${index}`}>
+                  <i>⚡</i> 
+                  <p>{skill}</p>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </div>
       </section>
