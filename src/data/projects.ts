@@ -1,17 +1,17 @@
 export const projectsInfo = [
-  {
-    projectName: "Dev Portfolio",
-    projectDesc:
-      "A portfolio website template for developers built using Next.js, Tailwind CSS, shadcn/ui and Typescript. You can use it to build your own portfolio website.",
-    projectImage: "https://i.ibb.co/7Qm3pDw/portfolio.png",
-    projectUrl: "https://mrprince88.vercel.app/",
-    codeLink: "https://github.com/mrprince88/dev-portfolio",
-    tags: ["Next.js", "Tailwind CSS", "shadcn/ui", "Typescript"],
-  },
+  // {
+  //   projectName: "Dev Portfolio",
+  //   projectDesc:
+  //     "A portfolio website template for developers built using Next.js, Tailwind CSS, shadcn/ui and Typescript. You can use it to build your own portfolio website.",
+  //   projectImage: "https://i.ibb.co/7Qm3pDw/portfolio.png",
+  //   projectUrl: "https://mrprince88.vercel.app/",
+  //   codeLink: "https://github.com/mrprince88/dev-portfolio",
+  //   tags: ["Next.js", "Tailwind CSS", "shadcn/ui", "Typescript"],
+  // },
   {
     projectName: "Bücherbüchse",
     projectDesc:
-      "A platform for book lovers to share their books with other book lovers. Built for the German market with React Native, React Query and Typescript. I worked on it during my tenure at Appleute.",
+      "A platform for book lovers to share their books with other book lovers. Built for the German market with React Native, React Query and Typescript.",
     projectImage: "https://i.ibb.co/D58wFLH/bookbox.png",
     projectUrl:
       "https://play.google.com/store/apps/details?id=app.buecherbuechse.bookbox",
@@ -25,13 +25,53 @@ export const projectsInfo = [
       "IOS",
     ],
   },
-  {
+    {
     projectName: "HeyFam - Online Gift Catalogue",
     projectDesc:
-      "This is an online gift catalogue website where you can search for gifts for your loved ones. Built using Next.js. I worked on it during my tenure at Appleute.",
+      "This is an online gift catalogue website where you can search for gifts for your loved ones. Built using Next.js.",
     projectImage: "https://i.ibb.co/GVhRwH5/heyfam.png",
     projectUrl: "https://www.heyfam-geschenke.com/",
     tags: ["Next.js", "Typescript", "Ant Design"],
+  },
+
+    {
+    projectName: "now.page",
+    projectDesc:
+      "A social media platform where you can share your thoughts and ideas with the world. Built using Next.js, Typescript, Tailwind CSS, shadcn/ui.",
+    projectImage: "https://i.ibb.co/4ZpXbQBk/now-page.png",
+    projectUrl: "https://now.page/",
+    tags: ["Next.js", "Typescript", "Tailwind CSS", "shadcn/ui"],
+  },
+    {
+    projectName: "StartWall",
+    projectDesc:"A platform to share all your important links in one place. Built using React, Typescript, Material UI, MongoDB and MongoDB.",
+    projectImage: "https://i.ibb.co/kgnFgxYp/startwall-com-2.png",
+    projectUrl:
+      "https://startwall.com/",
+    tags: [
+      "React",
+      "Typescript",
+      "Material UI",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+    ],
+  },
+  {
+    projectName: "Ulomate",
+    projectDesc:
+      "A SaaS for a law firm to manage their documents by providing a secure and efficient way to store, share and proof read documents. Built using React, Material UI, Typescript, Flask, MySQL.",
+    projectImage: "https://i.ibb.co/Zp8b642s/ulomate-com-login.png",
+    projectUrl: "https://ulomate.com/",
+    tags: [
+      "React",
+      "Material UI",
+      "Typescript",
+      "Flask",
+      "MySQL",
+      "Docker",
+      "AWS S3",
+    ],
   },
   {
     projectName: "Friendster",
@@ -66,24 +106,24 @@ export const projectsInfo = [
       "Travel Advisor API",
     ],
   },
-  {
-    projectName: "Sorting Visualizer",
-    projectDesc:
-      "A sorting visualizer app built using Vanilla JS, HTML and CSS. It visualizes the sorting algorithms like Bubble Sort, Merge Sort, Quick Sort, Heap Sort, Insertion Sort, Selection Sort.",
-    projectImage: "https://i.ibb.co/86t3Bnf/Screenshot.png",
-    projectUrl: "https://mrprince88.github.io/SortingVisualizer/index.html",
-    codeLink: "https://github.com/mrprince88/SortingVisualizer",
-    tags: ["JS", "HTML", "CSS"],
-  },
-  {
-    projectName: "Minimax Tic Tac Toe",
-    projectDesc:
-      "A Tic Tac Toe game built using Vanilla JS, HTML and CSS with Minimax Algorithm and Alpha Beta Pruning. You can play against the computer which uses the Minimax Algorithm to make its move.",
-    projectImage: "https://i.ibb.co/j3ScJsD/tictac.png",
-    projectUrl: "https://mrprince88.github.io/MiniMaxTicTacToe/index.html",
-    codeLink: "https://github.com/mrprince88/MiniMaxTicTacToe",
-    tags: ["JS", "HTML", "CSS"],
-  },
+  // {
+  //   projectName: "Sorting Visualizer",
+  //   projectDesc:
+  //     "A sorting visualizer app built using Vanilla JS, HTML and CSS. It visualizes the sorting algorithms like Bubble Sort, Merge Sort, Quick Sort, Heap Sort, Insertion Sort, Selection Sort.",
+  //   projectImage: "https://i.ibb.co/86t3Bnf/Screenshot.png",
+  //   projectUrl: "https://mrprince88.github.io/SortingVisualizer/index.html",
+  //   codeLink: "https://github.com/mrprince88/SortingVisualizer",
+  //   tags: ["JS", "HTML", "CSS"],
+  // },
+  // {
+  //   projectName: "Minimax Tic Tac Toe",
+  //   projectDesc:
+  //     "A Tic Tac Toe game built using Vanilla JS, HTML and CSS with Minimax Algorithm and Alpha Beta Pruning. You can play against the computer which uses the Minimax Algorithm to make its move.",
+  //   projectImage: "https://i.ibb.co/j3ScJsD/tictac.png",
+  //   projectUrl: "https://mrprince88.github.io/MiniMaxTicTacToe/index.html",
+  //   codeLink: "https://github.com/mrprince88/MiniMaxTicTacToe",
+  //   tags: ["JS", "HTML", "CSS"],
+  // },
   // {
   //   projectName: "FloraDoc",
   //   projectDesc:
@@ -92,13 +132,13 @@ export const projectsInfo = [
   //   projectUrl: "",
   //   tags: ["Flutter", "Node.js", "Tensorflow"],
   // },
-  {
-    projectName: "Disney+ Clone",
-    projectDesc:
-      "A clone of Disney+ built using React, Redux, Styled Components and Firebase with google authentication.",
-    projectImage: "https://i.ibb.co/cLRwFrK/disney-plus.png",
-    projectUrl: "https://disney-plus-f5746.firebaseapp.com/home",
-    codeLink: "https://github.com/mrprince88/disney-plus",
-    tags: ["React", "Redux", "Styled Components", "Firebase"],
-  },
+  // {
+  //   projectName: "Disney+ Clone",
+  //   projectDesc:
+  //     "A clone of Disney+ built using React, Redux, Styled Components and Firebase with google authentication.",
+  //   projectImage: "https://i.ibb.co/cLRwFrK/disney-plus.png",
+  //   projectUrl: "https://disney-plus-f5746.firebaseapp.com/home",
+  //   codeLink: "https://github.com/mrprince88/disney-plus",
+  //   tags: ["React", "Redux", "Styled Components", "Firebase"],
+  // },
 ];

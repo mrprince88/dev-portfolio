@@ -17,7 +17,7 @@ export default function HomePage() {
         <Greeting />
         <Skills />
         <Experience />
-        <Education />
+        {/* <Education /> */}
         <Projects />
         <Suspense fallback={<div>Loading...</div>}>
           <Articles />
