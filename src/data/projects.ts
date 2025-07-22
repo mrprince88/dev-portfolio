@@ -11,7 +11,7 @@ export const projectsInfo = [
   {
     projectName: "Bücherbüchse",
     projectDesc:
-      "A platform for book lovers to share their books with other book lovers. Built for the German market with React Native, React Query and Typescript.",
+      "A social media platform for book lovers. It allows you to keep track of your books, share reviews and connect with other book lovers. Built for German users.",
     projectImage: "https://i.ibb.co/D58wFLH/bookbox.png",
     projectUrl:
       "https://play.google.com/store/apps/details?id=app.buecherbuechse.bookbox",
@@ -28,14 +28,14 @@ export const projectsInfo = [
     {
     projectName: "HeyFam - Online Gift Catalogue",
     projectDesc:
-      "This is an online gift catalogue website where you can search for gifts for your loved ones. Built using Next.js.",
+      "This is an online gift catalogue website where you can search for gifts for your loved ones. This was built as a complimentary project to an app with the same name. HeyFam was featured in Germany's Shark Tank and received a lot of attention.",
     projectImage: "https://i.ibb.co/GVhRwH5/heyfam.png",
     projectUrl: "https://www.heyfam-geschenke.com/",
     tags: ["Next.js", "Typescript", "Ant Design"],
   },
   {
     projectName:"EasyPostlab",
-    projectDesc:"A platform to manage your social media posts, schedule them and analyze their performance. Built using React, Ant Design, Typescript, Nest.js, MongoDB",
+    projectDesc:"A platform to manage your social media posts, schedule them and analyze their performance. It is a subscription based SaaS targeted towards small businesses, freelancers and social media managers based in Germany",
     projectImage: "https://i.ibb.co/d0q89TLq/easypostlab.png",
     projectUrl: "https://easypostlab.com/",
     tags: ["React", "Ant Design", "Typescript", "Nest.js", "MongoDB"],
@@ -44,14 +44,14 @@ export const projectsInfo = [
   {
     projectName: "now.page",
     projectDesc:
-      "A social media platform where you can share your thoughts and ideas with the world. Built using Next.js, Typescript, Tailwind CSS, shadcn/ui.",
+      "A social media platform where you can share your thoughts and ideas with the world. You can login via Linkedin or Twitter, share your thoughts and follow other users.",
     projectImage: "https://i.ibb.co/4ZpXbQBk/now-page.png",
     projectUrl: "https://now.page/",
     tags: ["Next.js", "Typescript", "Tailwind CSS", "shadcn/ui"],
   },
     {
     projectName: "StartWall",
-    projectDesc:"A platform to share all your important links in one place. Built using React, Typescript, Material UI, MongoDB and MongoDB.",
+    projectDesc:"A platform to share all your important links in one place. It is similar to Linktree but with more features. There is a premium subscription integrated which allows you to customize your profile, add more walls and add more links.", 
     projectImage: "https://i.ibb.co/kgnFgxYp/startwall-com-2.png",
     projectUrl:
       "https://startwall.com/",
@@ -67,7 +67,7 @@ export const projectsInfo = [
   {
     projectName: "Ulomate",
     projectDesc:
-      "A SaaS for a law firm to manage their documents by providing a secure and efficient way to store, share and proof read documents. Built using React, Material UI, Typescript, Flask, MySQL.",
+      "A SaaS for a law firm to manage their documents by providing a secure and efficient way to store, share and proof read documents.",
     projectImage: "https://i.ibb.co/Zp8b642s/ulomate-com-login.png",
     projectUrl: "https://ulomate.com/",
     tags: [
