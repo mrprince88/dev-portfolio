@@ -39,24 +39,24 @@ export const socialHandles: {
     className: "bg-gmail",
     Icon: <FaEnvelope />,
   },
-  {
-    name: "Facebook",
-    href: "https://www.facebook.com/mrprince88",
-    className: "bg-facebook",
-    Icon: <FaFacebook />,
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/mr.prince88_",
-    className: "bg-instagram",
-    Icon: <FaInstagram />,
-  },
-  {
-    name: "Hashnode",
-    href: "https://mrprince88.hashnode.dev/",
-    className: "bg-hashnode",
-    Icon: <FaHashnode />,
-  },
+  // {
+  //   name: "Facebook",
+  //   href: "https://www.facebook.com/mrprince88",
+  //   className: "bg-facebook",
+  //   Icon: <FaFacebook />,
+  // },
+  // {
+  //   name: "Instagram",
+  //   href: "https://www.instagram.com/mr.prince88_",
+  //   className: "bg-instagram",
+  //   Icon: <FaInstagram />,
+  // },
+  // {
+  //   name: "Hashnode",
+  //   href: "https://mrprince88.hashnode.dev/",
+  //   className: "bg-hashnode",
+  //   Icon: <FaHashnode />,
+  // },
   {
     name: "Leetcode",
     href: "https://leetcode.com/mrprince88/",
