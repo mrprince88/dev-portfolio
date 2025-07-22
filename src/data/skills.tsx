@@ -135,9 +135,9 @@ export const skillsInfo: {
 ];
 
 export const softwareSkills = [
-  "I build high quality websites and mobile applications.",
-  "My main focus is on building pixel perfect UIs with intuitive UX.",
-  "I build scalable backend services with Node.js and Nestjs.",
-  "My preferred tech stack: React, React Native, Next.js, and Tailwind CSS.",
-  "I have good knowledge of DSA. I am rated 1740+ on Leetcode.",
+"3+ years of experience building scalable and performant web applications.",
+"Worked with global teams across India, Germany, and the USA, delivering impactful features and platforms in HR tech, legal tech, CRM systems, and social media domains.",
+"Skilled in Next.js, React, React Native, Node.js, FastAPI, PostgreSQL, and Kubernetes with a strong focus on performance optimization, CI/CD and scalable architecture.",
+"Love building side projects, reusable dev tools, and contributing to open source when time permits.",
+"Practicing Test Driven Development and writing clean, maintainable code.",
 ];

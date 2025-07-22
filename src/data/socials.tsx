@@ -63,10 +63,10 @@ export const socialHandles: {
     className: "bg-leetcode",
     Icon: <SiLeetcode />,
   },
-  {
-    name: "Codechef",
-    href: "https://www.codechef.com/users/mrprince8",
-    className: "bg-codechef",
-    Icon: <SiCodechef />,
-  },
+  // {
+  //   name: "Codechef",
+  //   href: "https://www.codechef.com/users/mrprince8",
+  //   className: "bg-codechef",
+  //   Icon: <SiCodechef />,
+  // },
 ];
