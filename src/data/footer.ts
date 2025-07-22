@@ -5,5 +5,5 @@ export const footer = {
   location: "Agra, India",
   openToOpportunities: "Yes",
   phone: "+91 8077978214",
-  profileImage: "https://i.ibb.co/1fsCdCX/profile-picture.webp",
+  profileImage: "https://i.ibb.co/4gDwFbc8/profile-picture-1.webp",
 };
