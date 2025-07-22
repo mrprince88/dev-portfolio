@@ -33,8 +33,15 @@ export const projectsInfo = [
     projectUrl: "https://www.heyfam-geschenke.com/",
     tags: ["Next.js", "Typescript", "Ant Design"],
   },
+  {
+    projectName:"EasyPostlab",
+    projectDesc:"A platform to manage your social media posts, schedule them and analyze their performance. Built using React, Ant Design, Typescript, Nest.js, MongoDB",
+    projectImage: "https://i.ibb.co/d0q89TLq/easypostlab.png",
+    projectUrl: "https://easypostlab.com/",
+    tags: ["React", "Ant Design", "Typescript", "Nest.js", "MongoDB"],
+  },
 
-    {
+  {
     projectName: "now.page",
     projectDesc:
       "A social media platform where you can share your thoughts and ideas with the world. Built using Next.js, Typescript, Tailwind CSS, shadcn/ui.",
