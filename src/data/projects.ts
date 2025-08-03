@@ -25,7 +25,7 @@ export const projectsInfo = [
       "IOS",
     ],
   },
-    {
+  {
     projectName: "HeyFam - Online Gift Catalogue",
     projectDesc:
       "This is an online gift catalogue website where you can search for gifts for your loved ones. This was built as a complimentary project to an app with the same name. HeyFam was featured in Germany's Shark Tank and received a lot of attention.",
@@ -34,8 +34,9 @@ export const projectsInfo = [
     tags: ["Next.js", "Typescript", "Ant Design"],
   },
   {
-    projectName:"EasyPostlab",
-    projectDesc:"A platform to manage your social media posts, schedule them and analyze their performance. It is a subscription based SaaS targeted towards small businesses, freelancers and social media managers based in Germany",
+    projectName: "EasyPostlab",
+    projectDesc:
+      "A platform to manage your social media posts, schedule them and analyze their performance. It is a subscription based SaaS targeted towards small businesses, freelancers and social media managers based in Germany",
     projectImage: "https://i.ibb.co/d0q89TLq/easypostlab.png",
     projectUrl: "https://easypostlab.com/",
     tags: ["React", "Ant Design", "Typescript", "Nest.js", "MongoDB"],
@@ -49,12 +50,12 @@ export const projectsInfo = [
     projectUrl: "https://now.page/",
     tags: ["Next.js", "Typescript", "Tailwind CSS", "shadcn/ui"],
   },
-    {
+  {
     projectName: "StartWall",
-    projectDesc:"A platform to share all your important links in one place. It is similar to Linktree but with more features. There is a premium subscription integrated which allows you to customize your profile, add more walls and add more links.", 
+    projectDesc:
+      "A platform to share all your important links in one place. It is similar to Linktree but with more features. There is a premium subscription integrated which allows you to customize your profile, add more walls and add more links.",
     projectImage: "https://i.ibb.co/kgnFgxYp/startwall-com-2.png",
-    projectUrl:
-      "https://startwall.com/",
+    projectUrl: "https://startwall.com/",
     tags: [
       "React",
       "Typescript",
