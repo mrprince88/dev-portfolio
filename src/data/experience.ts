@@ -5,13 +5,15 @@ export const experienceInfo = [
     description:
       "Fareportal is a leading travel technology company based in New York City, USA.",
     descBullets: [
-      "Established best practices and led end to end development of 2 projects from inception to deployment.",
-      "Developed a performance management tool for the HR team to monitor company performance, enhancing visibility and helping in effective decision-making.",
+      "Spearheaded the development of 2 projects establishing best practices from planning through deployment.",
+      "Engineered a KPI management platform leveraging virtualized lists to seamlessly handle and render 50k+ records with near instant performance.",
+      "Built a performance management system for 4k+ employees with quarterly self-assessments, manager feedback, and HR oversight.",
+      "Developed a call analysis tool processing 5k+ daily recordings to extract sentiment and detect compliance issues.",
     ],
     duration: "February 2025 - Present",
     src: "https://seekvectorlogo.net/wp-content/uploads/2019/10/fareportal-vector-logo.png",
     url: "https://www.fareportal.com",
-    techStack: ["Next.js", "React"],
+    techStack: ["Next.js", "React", "Node.js", "TypeScript"],
   },
   {
     companyName: "Lodus",

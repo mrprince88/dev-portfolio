@@ -20,10 +20,10 @@ export default function Profile() {
                 <IoLocationOutline className="mb-1 mr-2 inline-block" />
                 <span>{footer.location}</span>
               </span>
-              <div className="mt-5 text-xl md:ml-4 md:inline-block">
+              {/* <div className="mt-5 text-xl md:ml-4 md:inline-block">
                 <FaPhoneAlt className="mb-1 mr-2 inline-block" />
                 <span>{footer.phone}</span>
-              </div>
+              </div> */}
             </span>
             <SocialHandles />
             <p className="my-8 text-xl">
