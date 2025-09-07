@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import ThemeToggle from "../components/ThemeToggle";
 import { HamburgerMenuIcon, Cross1Icon } from "@radix-ui/react-icons";
 import HeadingTitle from "../components/HeadingTitle";
@@ -9,9 +9,33 @@ import { cn } from "~/lib/utils";
 
 export default function Header() {
   const [open, setOpen] = React.useState(false);
+  const headerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (headerRef.current) {
+        if (window.scrollY > 50) {
+          headerRef.current.classList.add("bg-background", "shadow-sm");
+          headerRef.current.classList.remove("bg-transparent");
+        } else {
+          headerRef.current.classList.remove("bg-background", "shadow-sm");
+          headerRef.current.classList.add("bg-transparent");
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className="sticky top-0 z-10 flex flex-wrap items-center justify-between bg-background px-2 py-4 sm:px-6 md:px-20">
+    <nav
+      ref={headerRef}
+      className="sticky top-0 z-10 flex flex-wrap items-center justify-between bg-transparent px-2 py-4 sm:px-6 md:px-20"
+    >
       <Link href="/">
         <HeadingTitle />
       </Link>
