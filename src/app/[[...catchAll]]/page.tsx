@@ -13,8 +13,8 @@ export default function HomePage() {
   return (
     <>
       <Header />
+      <Greeting />
       <main className="px-5 sm:px-10 md:px-20">
-        <Greeting />
         <Skills />
         <Experience />
         {/* <Education /> */}
