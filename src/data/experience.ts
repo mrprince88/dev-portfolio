@@ -58,7 +58,7 @@ export const experienceInfo = [
       "Built multiple core services in a distributed backend, currently serving upwards of 10,000 users.",
       "Designed and built multiple functionalities for Bücherbüchse admin panel used for monitoring user engagement and content management.",
     ],
-    duration: "September 2022 - November 2023",
+    duration: "September 2022 - January 2024",
     src: "https://www.appleute.de/wp-content/uploads/2021/08/Frame-46.svg",
     url: "https://www.appleute.de/",
     techStack: [
