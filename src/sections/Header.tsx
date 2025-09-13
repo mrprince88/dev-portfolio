@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <nav
       ref={headerRef}
-      className="sticky top-0 z-10 flex flex-wrap items-center justify-between bg-transparent px-2 py-4 sm:px-6 md:px-20"
+      className="sticky top-0 z-10 flex flex-wrap items-center justify-between bg-transparent px-4 py-4 sm:px-6 md:px-20"
     >
       <Link href="/">
         <HeadingTitle />
@@ -53,17 +53,17 @@ export default function Header() {
         {!open ? (
           <HamburgerMenuIcon
             onClick={() => setOpen(true)}
-            className="mb-2 h-8 w-8 cursor-pointer text-gray-500"
+            className="mb-4 h-8 w-8 cursor-pointer text-gray-500"
           />
         ) : (
           <Cross1Icon
-            className="h-8 w-8 cursor-pointer text-gray-500"
+            className="mb-4 h-8 w-8 cursor-pointer text-gray-500"
             onClick={() => setOpen(false)}
           />
         )}
         <div
           className={cn(
-            "absolute left-0 z-10 mt-8 max-h-0 w-full overflow-hidden bg-background text-xl transition-all duration-500 ease-in-out md:hidden",
+            "absolute left-0 z-10 mt-4 max-h-0 w-full overflow-hidden bg-background text-xl transition-all duration-500 ease-in-out md:hidden",
             open && "max-h-screen",
           )}
         >
