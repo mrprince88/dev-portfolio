@@ -9,6 +9,26 @@ export const projectsInfo = [
   //   tags: ["Next.js", "Tailwind CSS", "shadcn/ui", "Typescript"],
   // },
   {
+    projectName: "Anime Stream",
+    projectDesc:
+      "A modern, ad-free anime streaming application built with Next.js. Experience a premium interface with trending anime, comprehensive search, and a responsive video player.",
+    projectImage:
+      "https://raw.githubusercontent.com/mrprince88/anime-stream/refs/heads/main/screenshot/screenshot.png",
+    projectUrl: "https://mugi-anime-stream.vercel.app/",
+    codeLink: "https://github.com/mrprince88/anime-stream",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Consumet API"],
+  },
+  {
+    projectName: "Instagram Downloader",
+    projectDesc:
+      "A clean and efficient web application to download Instagram videos and photos. Built with Next.js and Puppeteer.",
+    projectImage:
+      "https://raw.githubusercontent.com/mrprince88/instagram-downloader/refs/heads/master/screenshot/screenshot.png",
+    projectUrl: "https://mugi-instagram-downloader.vercel.app/",
+    codeLink: "https://github.com/mrprince88/instagram-downloader",
+    tags: ["Next.js", "React", "Puppeteer", "Tailwind CSS"],
+  },
+  {
     projectName: "Bücherbüchse",
     projectDesc:
       "A social media platform for book lovers. It allows you to keep track of your books, share reviews and connect with other book lovers. Built for German users.",
