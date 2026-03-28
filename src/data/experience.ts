@@ -5,15 +5,17 @@ export const experienceInfo = [
     description:
       "Fareportal is a leading travel technology company based in New York City, USA.",
     descBullets: [
-      "Spearheaded the development of 2 projects establishing best practices from planning through deployment.",
-      "Engineered a KPI management platform leveraging virtualized lists to seamlessly handle and render 50k+ records with near instant performance.",
-      "Built a performance management system for 4k+ employees with quarterly self-assessments, manager feedback, and HR oversight.",
-      "Developed a call analysis tool processing 5k+ daily recordings to extract sentiment and detect compliance issues.",
+     "Led the development of 3 projects establishing best practices from planning through deployment.",
+     "Engineered a KPI management platform capable of rendering 50,000+ records in real time using virtualized lists, improving data visibility and performance by 80%.",
+     "Built a performance management system for 4k+ employees, streamlining quarterly self-assessments, manager feedback, and HR oversight improving feedback completion rates by 35% and reducing HR workload by 40%.",
+     "Developed both frontend and backend for a call analysis tool handling 5,000+ recordings per day, integrating sentiment detection and compliance analytics to enhance QA efficiency.",
+     "Designed a customer genome portal consolidating multi-channel interaction data to identify engagement patterns, leading to a 15% increase in customer retention.",
+     "Developing a travel assistant LLM bot that generates personalized itineraries, projected to reduce planning time by 70% and elevate user satisfaction metrics.",
     ],
     duration: "February 2025 - Present",
     src: "https://seekvectorlogo.net/wp-content/uploads/2019/10/fareportal-vector-logo.png",
     url: "https://www.fareportal.com",
-    techStack: ["Next.js", "React", "Node.js", "TypeScript"],
+    techStack: ["Next.js", "React", "Node.js", "Flask", "FastAPI", "PostgreSQL", "MySQL", "pgvector", "AI SDK", "Langchain"],
   },
   {
     companyName: "Lodus",

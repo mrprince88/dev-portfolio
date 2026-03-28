@@ -4,6 +4,5 @@ export const footer = {
     "Discuss a project or just want to say hi? My inbox is open for all.",
   location: "Delhi, India",
   openToOpportunities: "Yes",
-  phone: "+91 8077978214",
-  profileImage: "https://i.ibb.co/4gDwFbc8/profile-picture-1.webp",
+  profileImage: "https://i.ibb.co/mFJ86Pp2/file-000000008c5471fa84b6064750b5b21b.png",
 };
